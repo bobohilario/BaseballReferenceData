@@ -1,6 +1,6 @@
 <|"IndexedPaths" -> None, "Driver" -> "Lucene", 
- "CreationDate" -> DateObject[{2021, 10, 8, 8, 26, 
-    48.36076`8.437068093343656}, "Instant", "Gregorian", -5.], 
+ "CreationDate" -> DateObject[{2021, 7, 27, 9, 29, 
+    12.870274`7.862162778744789}, "Instant", "Gregorian", -5.], 
  "Version" -> 4, "Synonyms" -> None, "Method" -> "BM25", 
  "Language" -> "English", "ContentFieldOptions" -> 
   <|"Title" -> <|"Stored" -> True, "Weight" -> 2|>, 
@@ -43,8 +43,8 @@
      Module[{DocumentationSearch`Private`u = DocumentationSearch`Private`c[
          "URL"]}, If[StringQ[DocumentationSearch`Private`u], 
        URL[StringReplace[DocumentationSearch`Private`u, 
-         RegularExpression["https?://reference.wolfram.com/language/"] -> 
-          "https://reference.wolframcloud.com/cloudplatform/"]], 
+         "http://reference.wolfram.com/language/" -> 
+          "http://reference.wolframcloud.com/cloudplatform/"]], 
        DocumentationSearch`Private`u]]]|>, "DocumentWeightingRules" -> 
   <|"NotebookType" -> {"Symbol" -> 1., "Guide" -> 1., "Root Guide" -> 1., 
      "Upgrade Information" -> 1., "WorkflowGuide" -> 1., 

@@ -20,17 +20,26 @@ xmlRows["PlayerHomers",xml_]:=Cases[xml,
 xmlRows["PlayerSearch",xml_]:=Cases[xml,
    XMLElement["div", {"class" -> "search-item"}, _] , {5, Infinity}];
 
-xmlRows["TeamList",xml_]:=DeleteDuplicates[
-    Cases[xml,
-        XMLElement["a", {___, "href" -> ts:(_String?(StringMatchQ[#1, "/teams/*/"] &)), ___}, {name_}] :>
-             <|
-            "Path" -> ts, "Name" -> name
-        |>, {1, Infinity}
-    ]
+xmlRows["TeamList",xml_]:=DeleteDuplicatesBy[
+    DeleteDuplicatesBy[
+        Cases[xml,
+            XMLElement["a", {___, "href" -> ts:(_String?(StringMatchQ[#1, "/teams/*/"] &)), ___}, {name_}] :>
+                <|
+                "Path" -> ts, "Name" -> name
+            |>, {1, Infinity}
+        ],
+        #["Name"]&
+    ],
+    #["Path"]&
 ]
 
+xmlRows["TeamYearSchedule", xml_] :=
+    Cases[xml, XMLElement["tr", {}, {XMLElement["th", {__, "data-stat"
+         -> "team_game", ___}, {d_ /; StringMatchQ[d, DigitCharacter..]}], __
+        }], Infinity]
+
 parseRows[type_,rows_]:=With[{rules=XMLRules[type]},
-    parserow[type,rules,#]&/@rows
+    DeleteMissing[parserow[type,rules,#]&/@rows]
 ]
 
 parserow["TeamList",_,row_]:=row
@@ -112,9 +121,61 @@ XMLRules["PlayerSearch"] = {
     }]
 }
 
+
+XMLRules["TeamYearSchedule"]={
+    XMLElement["th", {___, "data-stat" -> "team_game", ___}, {val_}] :> Sow["GameNumber" -> val],
+    XMLElement["td", {__,"data-stat" -> "date_game", ___}, 
+        {XMLElement["a", {__, "href" -> scoreboardurl_,__}, {date_}]}]:>Sow[{"ScoreboardURL" -> URL["https://www.baseball-reference.com"
+         <> scoreboardurl],"Date"->DateObject[date,"Day"]}],
+    XMLElement["td", {__,"data-stat" -> "boxscore",___}, {XMLElement[
+        "a", {___,"href" -> boxlink_,___}, {"boxscore"}]}]:>Sow[{"BoxScoreURL" -> URL["https://www.baseball-reference.com"
+         <> boxlink]}],
+    XMLElement["td", {__,"data-stat" -> "homeORvis",___}, {val_}]:>Sow[{"HomeGame" -> val=!="@"}],     
+    XMLElement["td", {__,"data-stat" -> "opp_ID", ___}, 
+        {XMLElement["a", {__, "href" -> oppurl_,___}, {val_}]}]:>Sow[{"OpponentURL" -> URL["https://www.baseball-reference.com"
+         <> oppurl],"Opponent"->val}],
+    XMLElement["td", {__,"data-stat" -> "opp_ID", ___}, {val_String}]:>Sow[{"Opponent"->val}],
+    XMLElement["td", {__,"data-stat" -> "win_loss_result",___}, {val_}]:>Sow[{"Win" -> (val=!="L")}],  
+    XMLElement["td", {__,"data-stat" -> "R",___}, {val_}]:>Sow[{"Runs" -> val}],  
+    XMLElement["td", {__,"data-stat" -> "RA",___}, {val_}]:>Sow[{"RunsAllowed" -> val}],  
+    XMLElement["td", {__,"data-stat" -> "extra_innings",___}, {val_}]:>Sow[{"ExtraInnings" -> val}],  
+    XMLElement["td", {__,"data-stat" -> "win_loss_record",___}, {val_}]:>
+        Sow[{"SeasonWins" -> First[StringSplit[val,"-"]],"SeasonLoses"->Last[StringSplit[val,"-"]]}],  
+    XMLElement["td", {__,"data-stat" -> "rank",___}, {val_}]:>Sow[{"DivisionRank" -> val}],  
+    XMLElement["td", {__,"data-stat" -> "games_back",___}, {val_}]:>Sow[{"DivisionGameBack" -> parseGamesBack[val]}],
+
+    XMLElement["td", {__,"data-stat" -> "winning_pitcher",___}, {XMLElement[
+        "a", {___,"href" -> pitcherurl_,"title" -> pitchername_}, {_}]}]:>
+        Sow[{"WinningPitcherURL" -> URL["https://www.baseball-reference.com"
+         <> pitcherurl],"WinningPitcher"->pitchername}],
+
+    XMLElement["td", {__,"data-stat" -> "losing_pitcher",___}, {XMLElement[
+        "a", {___,"href" -> pitcherurl_,"title" -> pitchername_}, {_}]}]:>
+        Sow[{"LosingPitcherURL" -> URL["https://www.baseball-reference.com"
+         <> pitcherurl],"LosingPitcher"->pitchername}],
+
+    XMLElement["td", {__,"data-stat" -> "saving_pitcher",___}, {XMLElement[
+        "a", {___,"href" -> pitcherurl_,"title" -> pitchername_}, {_}]}]:>
+        Sow[{"SavingPitcherURL" -> URL["https://www.baseball-reference.com"
+         <> pitcherurl],"SavingPitcher"->pitchername}],
+
+    XMLElement["td", {__,"data-stat" ->"time_of_game",___}, {val_}]:>
+        Sow[{"Duration" -> Total[DateValue[TimeObject[val], {"Hour", "Minute"}, Quantity]]}],  
+    XMLElement["td", {__,"data-stat" -> "day_or_night",___}, {val_}]:>Sow[{"NightGame" -> val==="N"}],  
+    XMLElement["td", {__,"data-stat" -> "attendance",___}, {val_}]:>Sow[{"Attendance" -> val}],  
+    XMLElement["td", {__,"data-stat" -> "cli",___}, {val_}]:>Sow[{"ChampionshipLeverageIndex" -> val}],  
+    XMLElement["td", {__,"data-stat" -> "win_loss_streak",___}, {XMLElement[__,{val_}]}]:>Sow[{"Streak" -> StringLength[val]}], 
+    XMLElement["td", {__,"data-stat" -> "reschedule",___}, {val_}]:>Sow[{"Reschedule" -> val}]
+    };
+
 pathToID[str_]:=Lookup[URLParse[str]["Query"], "id"]/;StringStartsQ[str,"/register"]
 pathToID[str_]:=FileBaseName[str]/;StringStartsQ[str,"/players"]
 pathToID[_]:=Missing["Unknown"]
+
+parseGamesBack["Tied"|" Tied"]=0.
+parseGamesBack[up_String/;StringStartsQ[up,"up"]]:=-ToExpression[StringTrim[StringDelete[up,"up"]]]
+parseGamesBack[str_String]:=StringTrim[str]
+parseGamesBack[expr_]:=expr
 
 End[]
 

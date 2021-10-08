@@ -9,7 +9,7 @@
             ,
             "Hash"
             ->
-            "2ef60cec7c6f983bc0faa6dbc4b8af8b53cb11d94c5dcb6476af0be6304c1a35"
+            "29ea1eb9d58bc190dfb6ba0bc1b1f50ecb2f00485021c4c7a38eea2f4c31e1d2"
                 
         |>
         ,
@@ -20,7 +20,29 @@
             ,
             "Hash"
             ->
-            "1e81737b6f3007f724c938cb09bdfbc85ba4dedcc0cceebb13d2dea64742b3dd"
+            "c93f9d6ad140863e57bddd53391595fabfe5a7f0b2ac18a8ac9950acd77e18e2"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File["Kernel/Schedule.m"]
+            ,
+            "Hash"
+            ->
+            "28ae8c2ea64dc379ad930669d25f5fb4df372833d4db298ee2e0bd2adffa0db6"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File["Kernel/Teams.m"]
+            ,
+            "Hash"
+            ->
+            "d6acf20619c983418bcbc45585defe12dce08e9eca37d7a8561eac0590593db2"
                 
         |>
         ,
@@ -31,7 +53,7 @@
             ,
             "Hash"
             ->
-            "3ea713bd245121fe4f16afb7353592e0e33b4f4fccbbaeb87f48eba0531b65c6"
+            "76084b791a8cc4f2d68433844c3219fb2eb5318ede9e5219958185a4b534fbe2"
                 
         |>
         ,
@@ -42,7 +64,19 @@
             ,
             "Hash"
             ->
-            "0b19bbe48848b38a83b4d2f4fd335722f8bfde88e8e6517993d0adf8e6277e78"
+            "e8779c94a390656b4e5d23dc10cb54d91cf10312c74695f17cb4de693b86e0a5"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File["Documentation/English/Guides/BaseballReferenceData.nb"
+                ]
+            ,
+            "Hash"
+            ->
+            "2ebf51a28baf994f133ce688564b1921ee9a2611a4dc40602376fe054d814c72"
                 
         |>
         ,
@@ -54,7 +88,7 @@
             ,
             "Hash"
             ->
-            "1d1cfe2309af01a2900083ff15bbb426722451ea45682902c31970b25eb22d27"
+            "ea9b778aeb04e8f38373cc749ba5310d51d14ee1420fd634e36b380043c15573"
                 
         |>
         ,
@@ -66,7 +100,31 @@
             ,
             "Hash"
             ->
-            "89f1afaba99b113088959e5415bf72cdff548915528418a2689066ae57ba7899"
+            "9dcbc8f3ddc015f25f10663cf5a4c0f077ba4a47468161d4180ecc62e02eae42"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File["Documentation/English/ReferencePages/Symbols/TeamPaths.nb"
+                ]
+            ,
+            "Hash"
+            ->
+            "f842fd97f571755c9be1678cb6a833c258ec1c581177d78153829ce2e19b105a"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File["Documentation/English/ReferencePages/Symbols/TeamYearSchedule.nb"
+                ]
+            ,
+            "Hash"
+            ->
+            "4b11bbdd570692e15d13180eb487705004b7ce4d29ce7699a48ac039a2f9fb62"
                 
         |>
     }

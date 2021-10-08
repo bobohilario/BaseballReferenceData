@@ -3,17 +3,17 @@
 (*** Wolfram Notebook File ***)
 (* http://www.wolfram.com/nb *)
 
-(* CreatedBy='Mathematica 12.4' *)
+(* CreatedBy='Mathematica 13.0' *)
 
 (*CacheID: 234*)
 (* Internal cache information:
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    392482,       7537]
-NotebookOptionsPosition[    386589,       7413]
-NotebookOutlinePosition[    389090,       7474]
-CellTagsIndexPosition[    388966,       7468]
+NotebookDataLength[    388006,       7458]
+NotebookOptionsPosition[    382875,       7352]
+NotebookOutlinePosition[    384960,       7404]
+CellTagsIndexPosition[    384836,       7398]
 WindowTitle->PlayerHomers
 WindowFrame->Normal*)
 
@@ -27,12 +27,10 @@ Cell[BoxData[GridBox[{
           TemplateBox[{12},
            "Spacer1"], Cell[
           "BOB__ BASEBALL REFERENCE DATA SYMBOL", "PacletNameCell",
-           TextAlignment->Center,ExpressionUUID->
-           "7d6dddf8-6dc4-47ec-8380-72172cd3bb9d"], 
+           TextAlignment->Center], 
           TemplateBox[{8},
            "Spacer1"]}]],
-         TextAlignment->Center,ExpressionUUID->
-         "1e9e333b-eb5b-44d7-ba2f-f04d1ee8d262"],
+         TextAlignment->Center],
         Background->RGBColor[0.490196, 0.576471, 0.690196],
         ItemSize->Full], ""}
      },
@@ -50,9 +48,8 @@ Cell[BoxData[GridBox[{
             LineBox[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]},
            AspectRatio->1,
            ImageSize->20,
-           PlotRange->{{-3, 4}, {-1, 1}}]],ExpressionUUID->
-          "5174110c-9b2d-45b4-a6cc-a24e2f6670e7"]
-        }],ExpressionUUID->"cbf0f26e-fabf-4ef3-a073-be1a1390e7e9"],
+           PlotRange->{{-3, 4}, {-1, 1}}]]]
+        }]],
         StripOnInput->
          False], {"\<\"Bob__BaseballReferenceData/ref/PlayerHomers\"\>":>
        None, "\<\"Copy Wolfram Documentation Center URL\"\>":>
@@ -80,81 +77,71 @@ BaseballReferenceData/ref/PlayerHomers.html"], StandardForm]], "Input",
         NotebookClose[DocumentationSearch`Private`nb$]; 
         Null], "\<\"Go to web URL\"\>":>FrontEndExecute[{
          NotebookLocate[{
-           URL[
-            StringJoin[
-             If[
-              TrueQ[DocumentationBuild`Make`Private`wsmlinkQ$88697], 
-              "http://reference.wolfram.com/system-modeler/", 
-              "http://reference.wolfram.com/language/"], 
-             "Bob__BaseballReferenceData/ref/PlayerHomers", ".html"]], 
+           URL[(If[
+               TrueQ[DocumentationBuild`Make`Private`wsmlinkQ$127829], 
+               "http://reference.wolfram.com/system-modeler/", 
+               "http://reference.wolfram.com/language/"] <> 
+             "Bob__BaseballReferenceData/ref/PlayerHomers") <> ".html"], 
            None}]}]},
        Appearance->None,
        MenuAppearance->Automatic,
        MenuStyle->"URLMenu"],
       MouseAppearanceTag["LinkHand"]]],
-     LineSpacing->{1.4, 0},ExpressionUUID->
-     "f130b4e4-9d85-49d6-ad1f-3b5364740049"]], "AnchorBar",
-     CacheGraphics->False,ExpressionUUID->
-     "7e9317bc-2c57-488f-aa7a-9f4834cd0e5f"]}
+     LineSpacing->{1.4, 0}]], "AnchorBar",
+     CacheGraphics->False]}
   }]], "AnchorBarGrid",
  GridBoxOptions->{GridBoxItemSize->{"Columns" -> {
      Scaled[0.65], {
       Scaled[0.34]}}, "ColumnsIndexed" -> {}, "Rows" -> {{1.}}, 
    "RowsIndexed" -> {}}},
- CellID->1,ExpressionUUID->"9117a7b8-e538-4f45-b65c-a2c63efc2c9c"],
+ CellID->1],
 
-Cell["BobSandheinrich`BaseballReferenceData`", "ContextNameCell",ExpressionUUID->"15e6fc90-8f46-45c8-9a91-78f664c7c5bd"],
-
-Cell[CellGroupData[{
+Cell["Bob`BaseballReferenceData`", "ContextNameCell"],
 
 Cell[BoxData[GridBox[{
    {Cell[TextData[{
-     Cell[
-     "PlayerHomers", "ObjectName",ExpressionUUID->
-      "b8b90a81-2620-49f3-bc80-7b5c0ac75cee"],
+     Cell["PlayerHomers", "ObjectName"],
      Cell[BoxData[
       TemplateBox[{8},
-       "Spacer1"]],ExpressionUUID->"a36ce204-bbe6-4e6b-8cd6-11069dcdf305"],
-     Cell[BoxData[
-     ""], "ObjectNameTranslation",ExpressionUUID->
-      "3ef79d72-142f-434f-8730-ef58c21aa536"]
-    }],ExpressionUUID->"e27293a6-09d4-4f24-ba93-2c4f8d51c48f"], Cell[BoxData[
+       "Spacer1"]]],
+     Cell[BoxData[""], "ObjectNameTranslation"]
+    }]], Cell[BoxData[
      TooltipBox[
       StyleBox[
        TagBox[
-        GraphicsBox[InsetBox[
-          StyleBox["\<\"NEW IN ??\"\>",
-           StripOnInput->False,
-           FontFamily->"Source Sans Pro",
-           FontSize->18,
-           FontWeight->"Bold",
-           FontSlant->"Italic",
-           FontColor->RGBColor[0.968627, 0.466667, 0]], {0, 0}],
-         ImageSize->{120, 24}],
+        StyleBox[
+         GraphicsBox[InsetBox[
+           StyleBox["\<\"NEW IN ??\"\>",
+            StripOnInput->False,
+            FontFamily->"Source Sans Pro",
+            FontSize->18,
+            FontWeight->"Bold",
+            FontSlant->"Italic",
+            FontColor->RGBColor[0.968627, 0.466667, 0]], {Right, Center}, {
+           Right, Center}],
+          ImageSize->{125, 24}], "NewInGraphic",
+         StripOnInput->False],
         Deploy,
         DefaultBaseStyle->"Deploy"], "NewInGraphic",
        StripOnInput->False],
       "New in 12",
       TooltipDelay->0.3]],
-     Magnification->1,ExpressionUUID->
-     "43d73c64-6695-41a0-9287-e9e1732789e1"]}
+     Magnification->1]}
   }]], "ObjectNameGrid",
- CacheGraphics->False,ExpressionUUID->"8f94db57-4fc1-41e6-bf4e-6ea2cf017131"],
+ CacheGraphics->False],
 
 Cell[BoxData[GridBox[{
    {"", Cell[TextData[{
      Cell[BoxData[
       RowBox[{"PlayerHomers", "[", "id", "]"}]], "InlineFormula",
-      FontFamily->"Source Sans Pro",ExpressionUUID->
-      "3794ec71-d7b5-4f24-b1ce-365569ab8a2e"],
+      FontFamily->"Source Sans Pro"],
      " \[LineSeparator]retrieves information about all career home runs by \
 the player specified by Baseball-Reference id."
-    }],ExpressionUUID->"a834fea2-a0d1-4a5e-a747-056c2fcd4ca0"]}
+    }]]}
   }]], "Usage",
  GridBoxOptions->{
  GridBoxBackground->{"Columns" -> {{None}}, "Rows" -> {{None}}}},
- CellID->982511436,ExpressionUUID->"a7dff200-04dd-406f-9578-c40834319cf9"]
-}, Open  ]],
+ CellID->982511436],
 
 Cell[CellGroupData[{
 
@@ -183,13 +170,12 @@ Cell[TextData[Cell[BoxData[
            Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
           PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
          0.68 Inherited], Rational[1, 2] Pi, {-1.65, -1}]]],
-     ImageSizeCache->{14., {0.45000000000000107`, 13.549999999999999`}}]],
-    ExpressionUUID->"fd5915a1-d7b3-45a1-9d67-16037f92d663"],
+     ImageSizeCache->{14., {0.45000000000000107`, 13.549999999999999`}}]]],
    Cell[BoxData[
     TemplateBox[{1},
-     "Spacer1"]],ExpressionUUID->"ba69c6f8-a40d-479d-9e1f-095ad16bf3cc"],
+     "Spacer1"]]],
    "Details"
-  }], "NotesFrameText",ExpressionUUID->"9871bdba-639f-4cec-912d-f8c428f787e9"],
+  }], "NotesFrameText"],
   Appearance->{Automatic, None, "Normal", Automatic},
   BaseStyle->None,
   ButtonFunction:>(FrontEndExecute[{
@@ -199,16 +185,14 @@ Cell[TextData[Cell[BoxData[
      FrontEnd`SelectionMove[
       FrontEnd`SelectedNotebook[], After, CellContents]}]& ),
   Evaluator->None,
-  Method->
-   "Preemptive"]],ExpressionUUID->"1f629998-ffa5-4b3f-a9f5-5f22c81f3b96"]], \
-"NotesSection",
+  Method->"Preemptive"]]]], "NotesSection",
  WholeCellGroupOpener->True,
  CellGroupingRules->{"SectionGrouping", 50},
  CacheGraphics->False,
- CellID->1077241243,ExpressionUUID->"05cedb55-421a-4dc6-b73b-f8abc8187157"],
+ CellID->96399619],
 
 Cell["The result is a Dataset.", "Notes",
- CellID->1067943069,ExpressionUUID->"8d502152-a030-4da8-be8a-ef52b761db97"]
+ CellID->1067943069]
 }, Dynamic[CurrentValue[
  EvaluationNotebook[], {TaggingRules, "Openers", "NotesSection"}, Closed]]]],
 
@@ -238,20 +222,18 @@ Cell[TextData[{
          Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
         PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
        0.68 Inherited], Rational[1, 2] Pi, {-1.65, -1}]]],
-   ImageSizeCache->{14., {5., 9.}}]],ExpressionUUID->
-  "c205f1a7-57be-45a3-aa5d-f37931a711ed"],
+   ImageSizeCache->{14., {5., 9.}}]]],
  Cell[BoxData[
   TemplateBox[{1},
-   "Spacer1"]],ExpressionUUID->"3ef3ff45-1903-47cc-bab7-5abacf3ee4ab"],
+   "Spacer1"]]],
  "Examples",
  "\[NonBreakingSpace]\[NonBreakingSpace]",
- Cell["(2)", "ExampleCount",ExpressionUUID->
-  "1524f42f-1a97-4849-9e6b-653c64c0e1f7"]
+ Cell["(3)", "ExampleCount"]
 }], "PrimaryExamplesSection",
  WholeCellGroupOpener->True,
  CacheGraphics->False,
  CellTags->"PrimaryExamplesSection",
- CellID->1906426891,ExpressionUUID->"af398810-5d79-4d99-89cb-c8de4fa08dcf"],
+ CellID->985726695],
 
 Cell[CellGroupData[{
 
@@ -279,40 +261,37 @@ Cell[TextData[{
          Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
         PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
        0.68 Inherited], Rational[1, 2] Pi, {-1.65, -1}]]],
-   ImageSizeCache->{14., {5., 9.}}]],ExpressionUUID->
-  "4d6fe11d-f0e9-4fdd-82ef-2b53196f3754"],
+   ImageSizeCache->{14., {5., 9.}}]]],
  Cell[BoxData[
   TemplateBox[{1},
-   "Spacer1"]],ExpressionUUID->"9f2edc7a-63df-4869-9265-6debc742791f"],
+   "Spacer1"]]],
  "Basic Examples",
  "\[NonBreakingSpace]\[NonBreakingSpace]",
- Cell["(2)", "ExampleCount",ExpressionUUID->
-  "ac43520a-8354-421e-b510-de8b90738bc1"]
+ Cell["(2)", "ExampleCount"]
 }], "ExampleSection", "ExampleSection",
  WholeCellGroupOpener->True,
  CacheGraphics->False,
- CellID->860743797,ExpressionUUID->"08978b49-960d-4166-a02b-21e3e832802c"],
+ CellID->1419709907],
 
 Cell["Hall of Famer Ray Schalk only had eleven career home runs:", \
 "ExampleText",
- CellID->369542846,ExpressionUUID->"1e2281bc-0518-4414-9016-4c23553866b2"],
+ CellID->369542846],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
- RowBox[{"PlayerHomers", "[", "\"\<schalra01\>\"", "]"}]], "Input",
+ RowBox[{"Bob`BaseballReferenceData`PlayerHomers", "[", "\"\<schalra01\>\"", 
+  "]"}]], "Input",
  CellLabel->"In[1]:=",
- CellID->879267319,ExpressionUUID->"c1e52280-61f1-486d-81f2-90d8c23406e3"],
+ CellID->879267319],
 
 Cell[BoxData[
  TagBox[
   TagBox[
-   DynamicModuleBox[{TypeSystem`NestedGrid`PackagePrivate`$state$$ = 
-    Association["InitialData" -> {
-       Association[
+   DynamicModuleBox[{TypeSystem`NestedGrid`PackagePrivate`$state$$ = <|
+    "InitialData" -> {<|
        "Total" -> 1, "CareerCount" -> 1, "YearCount" -> 1, "GameCount" -> 1, 
-        "Date" -> DateObject[{1913, 6, 14}, "Day", "Gregorian", -5.], 
-        "BoxScoreURL" -> 
+        "Date" -> DateObject[{1913, 6, 14}, "Day"], "BoxScoreURL" -> 
         URL["https://www.baseball-reference.com/boxes/WS1/WS1191306140.shtml"]\
 , "Team" -> "CHW", "Location" -> "Away", "Opponent" -> "WSH", "Pitcher" -> 
         "Walter\[NonBreakingSpace]Johnson", "PitcherURL" -> 
@@ -322,11 +301,10 @@ Cell[BoxData[
         "IPHR", "Score" -> Missing["NotAvailable"], "Outs" -> 
         Missing["NotAvailable"], "OnBase" -> Missing["NotAvailable"], 
         "WinProbAdded" -> Missing["NotAvailable"], "WinExpectency" -> 
-        Missing["NotAvailable"], "Description" -> Missing["NotAvailable"]], 
-       Association[
+        Missing["NotAvailable"], "Description" -> 
+        Missing["NotAvailable"]|>, <|
        "Total" -> 2, "CareerCount" -> 2, "YearCount" -> 1, "GameCount" -> 1, 
-        "Date" -> DateObject[{1915, 5, 1}, "Day", "Gregorian", -5.], 
-        "BoxScoreURL" -> 
+        "Date" -> DateObject[{1915, 5, 1}, "Day"], "BoxScoreURL" -> 
         URL["https://www.baseball-reference.com/boxes/CHA/CHA191505010.shtml"]\
 , "Team" -> "CHW", "Location" -> "Home", "Opponent" -> "DET", "Pitcher" -> 
         "Harry\[NonBreakingSpace]Coveleski", "PitcherURL" -> 
@@ -337,11 +315,9 @@ Cell[BoxData[
         Missing["NotAvailable"], "Outs" -> Missing["NotAvailable"], "OnBase" -> 
         Missing["NotAvailable"], "WinProbAdded" -> Missing["NotAvailable"], 
         "WinExpectency" -> Missing["NotAvailable"], "Description" -> 
-        Missing["NotAvailable"]], 
-       Association[
+        Missing["NotAvailable"]|>, <|
        "Total" -> 3, "CareerCount" -> 3, "YearCount" -> 1, "GameCount" -> 1, 
-        "Date" -> DateObject[{1917, 4, 11}, "Day", "Gregorian", -5.], 
-        "BoxScoreURL" -> 
+        "Date" -> DateObject[{1917, 4, 11}, "Day"], "BoxScoreURL" -> 
         URL["https://www.baseball-reference.com/boxes/SLA/SLA191704110.shtml"]\
 , "Team" -> "CHW", "Location" -> "Away", "Opponent" -> "SLB", "Pitcher" -> 
         "Carl\[NonBreakingSpace]Weilman", "PitcherURL" -> 
@@ -351,11 +327,9 @@ Cell[BoxData[
         "IPHR", "Score" -> "ahead 5-2", "Outs" -> 1, "OnBase" -> "\"-2-\"", 
         "WinProbAdded" -> 0.017, "WinExpectency" -> Quantity[100, "Percent"], 
         "Description" -> 
-        "Inside-the-park Home Run to CF (CF-RF); Weaver Scores"], 
-       Association[
+        "Inside-the-park Home Run to CF (CF-RF); Weaver Scores"|>, <|
        "Total" -> 4, "CareerCount" -> 4, "YearCount" -> 2, "GameCount" -> 1, 
-        "Date" -> DateObject[{1917, 9, 3}, "Day", "Gregorian", -5.], 
-        "BoxScoreURL" -> 
+        "Date" -> DateObject[{1917, 9, 3}, "Day"], "BoxScoreURL" -> 
         URL["https://www.baseball-reference.com/boxes/CHA/CHA191709032.shtml"]\
 , "Team" -> "CHW", "Location" -> "Home", "Opponent" -> "DET", "Pitcher" -> 
         "Bill\[NonBreakingSpace]James", "PitcherURL" -> 
@@ -366,11 +340,9 @@ Cell[BoxData[
         Missing["NotAvailable"], "Outs" -> Missing["NotAvailable"], "OnBase" -> 
         Missing["NotAvailable"], "WinProbAdded" -> Missing["NotAvailable"], 
         "WinExpectency" -> Missing["NotAvailable"], "Description" -> 
-        Missing["NotAvailable"]], 
-       Association[
+        Missing["NotAvailable"]|>, <|
        "Total" -> 5, "CareerCount" -> 5, "YearCount" -> 1, "GameCount" -> 1, 
-        "Date" -> DateObject[{1920, 8, 9}, "Day", "Gregorian", -5.], 
-        "BoxScoreURL" -> 
+        "Date" -> DateObject[{1920, 8, 9}, "Day"], "BoxScoreURL" -> 
         URL["https://www.baseball-reference.com/boxes/CHA/CHA192008092.shtml"]\
 , "Team" -> "CHW", "Location" -> "Home", "Opponent" -> "WSH", "Pitcher" -> 
         "Harry\[NonBreakingSpace]Courtney", "PitcherURL" -> 
@@ -381,11 +353,9 @@ Cell[BoxData[
         Missing["NotAvailable"], "Outs" -> Missing["NotAvailable"], "OnBase" -> 
         Missing["NotAvailable"], "WinProbAdded" -> Missing["NotAvailable"], 
         "WinExpectency" -> Missing["NotAvailable"], "Description" -> 
-        Missing["NotAvailable"]], 
-       Association[
+        Missing["NotAvailable"]|>, <|
        "Total" -> 6, "CareerCount" -> 6, "YearCount" -> 1, "GameCount" -> 1, 
-        "Date" -> DateObject[{1922, 5, 19}, "Day", "Gregorian", -5.], 
-        "BoxScoreURL" -> 
+        "Date" -> DateObject[{1922, 5, 19}, "Day"], "BoxScoreURL" -> 
         URL["https://www.baseball-reference.com/boxes/PHA/PHA192205190.shtml"]\
 , "Team" -> "CHW", "Location" -> "Away", "Opponent" -> "PHA", "Pitcher" -> 
         "Eddie\[NonBreakingSpace]Rommel", "PitcherURL" -> 
@@ -395,11 +365,9 @@ Cell[BoxData[
         Missing["NotAvailable"], "Score" -> "behind 1-3", "Outs" -> 2, 
         "OnBase" -> "\"1--\"", "WinProbAdded" -> 0.178, "WinExpectency" -> 
         Quantity[46, "Percent"], "Description" -> 
-        "Home Run (Deep LF); Sheely Scores"], 
-       Association[
+        "Home Run (Deep LF); Sheely Scores"|>, <|
        "Total" -> 7, "CareerCount" -> 7, "YearCount" -> 2, "GameCount" -> 1, 
-        "Date" -> DateObject[{1922, 6, 27}, "Day", "Gregorian", -5.], 
-        "BoxScoreURL" -> 
+        "Date" -> DateObject[{1922, 6, 27}, "Day"], "BoxScoreURL" -> 
         URL["https://www.baseball-reference.com/boxes/DET/DET192206270.shtml"]\
 , "Team" -> "CHW", "Location" -> "Away", "Opponent" -> "DET", "Pitcher" -> 
         "Howard\[NonBreakingSpace]Ehmke", "PitcherURL" -> 
@@ -408,24 +376,21 @@ Cell[BoxData[
         "BattingOrderPosition" -> 8, "FieldingPosition" -> 2, "Notes" -> 
         Missing["NotAvailable"], "Score" -> "behind 1-4", "Outs" -> 0, 
         "OnBase" -> "\"---\"", "WinProbAdded" -> 0.083, "WinExpectency" -> 
-        Quantity[29, "Percent"], "Description" -> "Home Run (Deep LF)"], 
-       Association[
+        Quantity[29, "Percent"], "Description" -> "Home Run (Deep LF)"|>, <|
        "Total" -> 8, "CareerCount" -> 8, "YearCount" -> 3, "GameCount" -> 1, 
-        "Date" -> DateObject[{1922, 7, 15}, "Day", "Gregorian", -5.], 
-        "BoxScoreURL" -> 
-        URL["https://www.baseball-reference.com/boxes/NYA/NYA192207150.shtml"]\
-, "Team" -> "CHW", "Location" -> "Away", "Opponent" -> "NYY", "Pitcher" -> 
+        "Date" -> DateObject[{1922, 7, 15}, "Day"], "BoxScoreURL" -> 
+        URL[
+         "https://www.baseball-reference.com/boxes/NYA/NYA192207150.shtml"], 
+        "Team" -> "CHW", "Location" -> "Away", "Opponent" -> "NYY", "Pitcher" -> 
         "Carl\[NonBreakingSpace]Mays", "PitcherURL" -> 
         URL["https://www.baseball-reference.com/players/m/maysca01.shtml"], 
         "PitcherID" -> "Mays,Carl0.0008", "Inning" -> "t 3", "RBIs" -> 1, 
         "BattingOrderPosition" -> 8, "FieldingPosition" -> 2, "Notes" -> 
         Missing["NotAvailable"], "Score" -> "tied 0-0", "Outs" -> 0, "OnBase" -> 
         "\"---\"", "WinProbAdded" -> 0.108, "WinExpectency" -> 
-        Quantity[61, "Percent"], "Description" -> "Home Run (Deep LF)"], 
-       Association[
+        Quantity[61, "Percent"], "Description" -> "Home Run (Deep LF)"|>, <|
        "Total" -> 9, "CareerCount" -> 9, "YearCount" -> 4, "GameCount" -> 1, 
-        "Date" -> DateObject[{1922, 8, 31}, "Day", "Gregorian", -5.], 
-        "BoxScoreURL" -> 
+        "Date" -> DateObject[{1922, 8, 31}, "Day"], "BoxScoreURL" -> 
         URL["https://www.baseball-reference.com/boxes/DET/DET192208310.shtml"]\
 , "Team" -> "CHW", "Location" -> "Away", "Opponent" -> "DET", "Pitcher" -> 
         "Bert\[NonBreakingSpace]Cole", "PitcherURL" -> 
@@ -434,12 +399,10 @@ Cell[BoxData[
         "BattingOrderPosition" -> 8, "FieldingPosition" -> 2, "Notes" -> 
         "IPHR", "Score" -> "ahead 5-1", "Outs" -> 2, "OnBase" -> "\"-2-\"", 
         "WinProbAdded" -> 0.066, "WinExpectency" -> Quantity[96, "Percent"], 
-        "Description" -> "Inside-the-park Home Run to CF; McClellan Scores"], 
-       
-       Association[
+        "Description" -> 
+        "Inside-the-park Home Run to CF; McClellan Scores"|>, <|
        "Total" -> 10, "CareerCount" -> 10, "YearCount" -> 1, "GameCount" -> 1,
-         "Date" -> DateObject[{1923, 6, 8}, "Day", "Gregorian", -5.], 
-        "BoxScoreURL" -> 
+         "Date" -> DateObject[{1923, 6, 8}, "Day"], "BoxScoreURL" -> 
         URL["https://www.baseball-reference.com/boxes/NYA/NYA192306080.shtml"]\
 , "Team" -> "CHW", "Location" -> "Away", "Opponent" -> "NYY", "Pitcher" -> 
         "Sad\[NonBreakingSpace]Sam\[NonBreakingSpace]Jones", "PitcherURL" -> 
@@ -449,11 +412,9 @@ Cell[BoxData[
         Missing["NotAvailable"], "Score" -> "ahead 3-1", "Outs" -> 0, 
         "OnBase" -> "\"---\"", "WinProbAdded" -> 0.079, "WinExpectency" -> 
         Quantity[77, "Percent"], "Description" -> 
-        "Home Run (Line Drive to Deep LF)"], 
-       Association[
+        "Home Run (Line Drive to Deep LF)"|>, <|
        "Total" -> 11, "CareerCount" -> 11, "YearCount" -> 1, "GameCount" -> 1,
-         "Date" -> DateObject[{1924, 5, 6}, "Day", "Gregorian", -5.], 
-        "BoxScoreURL" -> 
+         "Date" -> DateObject[{1924, 5, 6}, "Day"], "BoxScoreURL" -> 
         URL["https://www.baseball-reference.com/boxes/CHA/CHA192405060.shtml"]\
 , "Team" -> "CHW", "Location" -> "Home", "Opponent" -> "DET", "Pitcher" -> 
         "Lil\[NonBreakingSpace]Stoner", "PitcherURL" -> 
@@ -463,22 +424,23 @@ Cell[BoxData[
         Missing["NotAvailable"], "Score" -> "tied 2-2", "Outs" -> 0, "OnBase" -> 
         "\"---\"", "WinProbAdded" -> 0.136, "WinExpectency" -> 
         Quantity[70, "Percent"], "Description" -> 
-        "Home Run (Fly Ball to Deep LF)"]}, "AllowEmbedding" -> True, 
-     "InitialShape" -> TypeSystem`PackageScope`HeaderShape[
-       Association[{All, "Total"} -> 1, {All, "CareerCount"} -> 
-        1, {All, "YearCount"} -> 1, {All, "GameCount"} -> 1, {All, "Date"} -> 
-        1, {All, "BoxScoreURL"} -> 1, {All, "Team"} -> 1, {All, "Location"} -> 
-        1, {All, "Opponent"} -> 1, {All, "Pitcher"} -> 1, {All, "PitcherURL"} -> 
+        "Home Run (Fly Ball to Deep LF)"|>}, "AllowEmbedding" -> True, 
+     "InitialShape" -> 
+     TypeSystem`PackageScope`HeaderShape[<|{All, "Total"} -> 
+        1, {All, "CareerCount"} -> 1, {All, "YearCount"} -> 
+        1, {All, "GameCount"} -> 1, {All, "Date"} -> 1, {All, "BoxScoreURL"} -> 
+        1, {All, "Team"} -> 1, {All, "Location"} -> 1, {All, "Opponent"} -> 
+        1, {All, "Pitcher"} -> 1, {All, "PitcherURL"} -> 
         1, {All, "PitcherID"} -> 1, {All, "Inning"} -> 1, {All, "RBIs"} -> 
         1, {All, "BattingOrderPosition"} -> 1, {All, "FieldingPosition"} -> 
         1, {All, "Notes"} -> 1, {All, "Score"} -> 1, {All, "Outs"} -> 
         1, {All, "OnBase"} -> 1, {All, "WinProbAdded"} -> 
-        1, {All, "WinExpectency"} -> 1, {All, "Description"} -> 1], 
+        1, {All, "WinExpectency"} -> 1, {All, "Description"} -> 1|>, 
        TypeSystem`PackageScope`Limited[
         TypeSystem`PackageScope`ColumnShape[
          TypeSystem`PackageScope`Limited[
-          TypeSystem`PackageScope`RowShape[
-           Association[
+          
+          TypeSystem`PackageScope`RowShape[<|
            "Total" -> TypeSystem`PackageScope`AtomShape[34], "CareerCount" -> 
             TypeSystem`PackageScope`AtomShape[34], "YearCount" -> 
             TypeSystem`PackageScope`AtomShape[34], "GameCount" -> 
@@ -502,7 +464,7 @@ Cell[BoxData[
             TypeSystem`PackageScope`AtomShape[52.5], "WinProbAdded" -> 
             TypeSystem`PackageScope`AtomShape[60], "WinExpectency" -> 
             TypeSystem`PackageScope`AtomShape[75], "Description" -> 
-            TypeSystem`PackageScope`AtomShape[537.6]]], 
+            TypeSystem`PackageScope`AtomShape[537.6]|>], 
           DirectedInfinity[1], 10, {All}]], 11, 
         DirectedInfinity[1], {}]], "InitialType" -> TypeSystem`Vector[
        TypeSystem`Struct[{
@@ -539,23 +501,23 @@ Cell[BoxData[
          TypeSystem`Atom[Real], 
          TypeSystem`Atom[
           Quantity[1, "Percent"]], 
-         TypeSystem`Atom[String]}], 11], "Meta" -> Association[], "RowTarget" -> 
-     20, "ColumnTarget" -> 10, "Shape" -> 
-     TypeSystem`PackageScope`HeaderShape[
-       Association[{All, "Total"} -> 1, {All, "CareerCount"} -> 
-        1, {All, "YearCount"} -> 1, {All, "GameCount"} -> 1, {All, "Date"} -> 
-        1, {All, "BoxScoreURL"} -> 1, {All, "Team"} -> 1, {All, "Location"} -> 
-        1, {All, "Opponent"} -> 1, {All, "Pitcher"} -> 1, {All, "PitcherURL"} -> 
+         TypeSystem`Atom[String]}], 11], "Meta" -> <||>, "RowTarget" -> 20, 
+     "ColumnTarget" -> 10, "Shape" -> 
+     TypeSystem`PackageScope`HeaderShape[<|{All, "Total"} -> 
+        1, {All, "CareerCount"} -> 1, {All, "YearCount"} -> 
+        1, {All, "GameCount"} -> 1, {All, "Date"} -> 1, {All, "BoxScoreURL"} -> 
+        1, {All, "Team"} -> 1, {All, "Location"} -> 1, {All, "Opponent"} -> 
+        1, {All, "Pitcher"} -> 1, {All, "PitcherURL"} -> 
         1, {All, "PitcherID"} -> 1, {All, "Inning"} -> 1, {All, "RBIs"} -> 
         1, {All, "BattingOrderPosition"} -> 1, {All, "FieldingPosition"} -> 
         1, {All, "Notes"} -> 1, {All, "Score"} -> 1, {All, "Outs"} -> 
         1, {All, "OnBase"} -> 1, {All, "WinProbAdded"} -> 
-        1, {All, "WinExpectency"} -> 1, {All, "Description"} -> 1], 
+        1, {All, "WinExpectency"} -> 1, {All, "Description"} -> 1|>, 
        TypeSystem`PackageScope`Limited[
         TypeSystem`PackageScope`ColumnShape[
          TypeSystem`PackageScope`Limited[
-          TypeSystem`PackageScope`RowShape[
-           Association[
+          
+          TypeSystem`PackageScope`RowShape[<|
            "Total" -> TypeSystem`PackageScope`AtomShape[34], "CareerCount" -> 
             TypeSystem`PackageScope`AtomShape[34], "YearCount" -> 
             TypeSystem`PackageScope`AtomShape[34], "GameCount" -> 
@@ -579,7 +541,7 @@ Cell[BoxData[
             TypeSystem`PackageScope`AtomShape[52.5], "WinProbAdded" -> 
             TypeSystem`PackageScope`AtomShape[60], "WinExpectency" -> 
             TypeSystem`PackageScope`AtomShape[75], "Description" -> 
-            TypeSystem`PackageScope`AtomShape[537.6]]], 
+            TypeSystem`PackageScope`AtomShape[537.6]|>], 
           DirectedInfinity[1], 10, {All}]], 11, 
         DirectedInfinity[1], {}]], "Type" -> TypeSystem`Vector[
        TypeSystem`Struct[{
@@ -619,7 +581,7 @@ Cell[BoxData[
          TypeSystem`Atom[String]}], 11], "Path" -> {}, "DisplayedRowCount" -> 
      11, "DisplayedColumnCount" -> 10, "DataRowCount" -> 11, 
      "DataColumnCount" -> 23, "SortPaths" -> {}, "SortDirections" -> {}, 
-     "HiddenItemsMap" -> Null, "UpdateType" -> 1], 
+     "HiddenItemsMap" -> Null, "UpdateType" -> 1|>, 
     TypeSystem`NestedGrid`PackagePrivate`$outputID$$, 
     TypeSystem`NestedGrid`PackagePrivate`$path$$ = {}, 
     TypeSystem`NestedGrid`PackagePrivate`$vPos$$ = 1, 
@@ -2504,14 +2466,13 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                     TypeSystem`NestedGrid`PackagePrivate`isKeyDummy$], 
                     Nothing, 
                     MenuItem[
-                    StringJoin["Show ", 
-                    Which[
-                    TypeSystem`NestedGrid`PackagePrivate`lastPathType$ == 
+                    "Show " <> 
+                    Which[TypeSystem`NestedGrid`PackagePrivate`lastPathType$ == 
                     "Item", "", 
                     TypeSystem`NestedGrid`PackagePrivate`lastPathType$ == 
                     "RowHeader", "Row", 
                     TypeSystem`NestedGrid`PackagePrivate`lastPathType$ == 
-                    "ColumnHeader", "Column", True, ""]], 
+                    "ColumnHeader", "Column", True, ""], 
                     KernelExecute[
                     TypeSystem`NestedGrid`PackagePrivate`updateHiddenItems[
                     TypeSystem`NestedGrid`PackagePrivate`$state$$, 
@@ -2536,14 +2497,13 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                     TypeSystem`NestedGrid`PackagePrivate`headerHidden$]], 
                     Nothing, 
                     MenuItem[
-                    StringJoin["Hide ", 
-                    Which[
-                    TypeSystem`NestedGrid`PackagePrivate`lastPathType$ == 
+                    "Hide " <> 
+                    Which[TypeSystem`NestedGrid`PackagePrivate`lastPathType$ == 
                     "Item", "", 
                     TypeSystem`NestedGrid`PackagePrivate`lastPathType$ == 
                     "RowHeader", "Row", 
                     TypeSystem`NestedGrid`PackagePrivate`lastPathType$ == 
-                    "ColumnHeader", "Column", True, ""]], 
+                    "ColumnHeader", "Column", True, ""], 
                     KernelExecute[
                     TypeSystem`NestedGrid`PackagePrivate`updateHiddenItems[
                     TypeSystem`NestedGrid`PackagePrivate`$state$$, 
@@ -2737,13 +2697,13 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
         Hold[
           TypeSystem`NestedGrid`PackagePrivate`localHold[
           TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]], StandardForm],
-      ImageSizeCache->{913., {187.8544921875, 193.1455078125}},
+      ImageSizeCache->{0., {0., 0.}},
       TrackedSymbols:>{
        TypeSystem`NestedGrid`PackagePrivate`$state$$, 
         TypeSystem`NestedGrid`PackagePrivate`$grid$$}], 
      TypeSystem`NestedGrid`PackagePrivate`mouseAnnotation$$ = 
      MouseAnnotation[],
-     ImageSizeCache->{913., {187.8544921875, 193.1455078125}}],
+     ImageSizeCache->{0., {0., 0.}}],
     BaseStyle->{LineBreakWithin -> False},
     DynamicModuleValues:>{},
     Initialization:>(TypeSystem`NestedGrid`PackagePrivate`$outputID$$ = 
@@ -2756,57 +2716,53 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
   SelectWithContents->True,
   Selectable->False]], "Output",
  CellLabel->"Out[1]=",
- CellID->1001545712,ExpressionUUID->"8269550c-e581-4f41-a863-e972a5e1c994"]
+ CellID->722398637]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
- InterpretationBox[Cell[
-  "\t", "ExampleDelimiter",ExpressionUUID->
-   "e7949727-fc8e-4a68-983d-278787306348"],
+ InterpretationBox[Cell["\t", "ExampleDelimiter"],
   $Line = 0; Null]], "ExampleDelimiter",
- CellID->1524979020,ExpressionUUID->"7df96111-616a-476a-a9e0-9750611e0bef"],
+ CellID->1524979020],
 
 Cell["Henry Aaron has 755 career home runs:", "ExampleText",
- CellID->614017954,ExpressionUUID->"f8bc78d7-aa6b-4098-90a9-6e9ad700bed8"],
-
-Cell[CellGroupData[{
+ CellID->614017954],
 
 Cell[BoxData[
  RowBox[{"aaron", "=", 
-  RowBox[{"PlayerHomers", "[", "\"\<aaronha01\>\"", "]"}]}]], "Input",
+  RowBox[{
+  "Bob`BaseballReferenceData`PlayerHomers", "[", "\"\<aaronha01\>\"", 
+   "]"}]}]], "Input",
  CellLabel->"In[1]:=",
- CellID->105062195,ExpressionUUID->"436595ae-f121-454c-b4b8-48fbc1c7b634"],
+ CellID->105062195],
 
 Cell[BoxData[
  TagBox[
   TemplateBox[{
     TagBox[
      DynamicModuleBox[{
-      TypeSystem`NestedGrid`PackagePrivate`$state$$ = 
-       Association[
+      TypeSystem`NestedGrid`PackagePrivate`$state$$ = <|
         "InitialData" -> 
          TypeSystem`CacheKey[
-          7078076914534622358615574456115890542055420401306515208200], 
+          7104898958621385275859088331763145285413677069430742597640], 
          "AllowEmbedding" -> True, "InitialShape" -> 
-         TypeSystem`PackageScope`HeaderShape[
-           
-           Association[{All, "Total"} -> 1, {All, "CareerCount"} -> 
-            1, {All, "YearCount"} -> 1, {All, "GameCount"} -> 
-            1, {All, "Date"} -> 1, {All, "BoxScoreURL"} -> 1, {All, "Team"} -> 
+         TypeSystem`PackageScope`HeaderShape[<|{All, "Total"} -> 
+            1, {All, "CareerCount"} -> 1, {All, "YearCount"} -> 
+            1, {All, "GameCount"} -> 1, {All, "Date"} -> 
+            1, {All, "BoxScoreURL"} -> 1, {All, "Team"} -> 
             1, {All, "Location"} -> 1, {All, "Opponent"} -> 
             1, {All, "Pitcher"} -> 1, {All, "PitcherURL"} -> 
             1, {All, "PitcherID"} -> 1, {All, "Score"} -> 1, {All, "Inning"} -> 
             1, {All, "Outs"} -> 1, {All, "OnBase"} -> 1, {All, "RBIs"} -> 
             1, {All, "BattingOrderPosition"} -> 1, {All, "FieldingPosition"} -> 
             1, {All, "WinProbAdded"} -> 1, {All, "WinExpectency"} -> 
-            1, {All, "Description"} -> 1, {All, "Notes"} -> 1], 
+            1, {All, "Description"} -> 1, {All, "Notes"} -> 1|>, 
            TypeSystem`PackageScope`Limited[
             TypeSystem`PackageScope`ColumnShape[
              TypeSystem`PackageScope`Limited[
-              TypeSystem`PackageScope`RowShape[
-               Association[
+              
+              TypeSystem`PackageScope`RowShape[<|
                "Total" -> TypeSystem`PackageScope`AtomShape[34], 
                 "CareerCount" -> TypeSystem`PackageScope`AtomShape[34], 
                 "YearCount" -> TypeSystem`PackageScope`AtomShape[34], 
@@ -2832,7 +2788,7 @@ Cell[BoxData[
                 TypeSystem`PackageScope`AtomShape[60], "WinExpectency" -> 
                 TypeSystem`PackageScope`AtomShape[75], "Description" -> 
                 TypeSystem`PackageScope`AtomShape[560.], "Notes" -> 
-                TypeSystem`PackageScope`AtomShape[33.6]]], 
+                TypeSystem`PackageScope`AtomShape[33.6]|>], 
               DirectedInfinity[1], 10, {All}]], 20, 
             DirectedInfinity[1], {}]], "InitialType" -> TypeSystem`Vector[
            
@@ -2866,25 +2822,24 @@ Cell[BoxData[
              TypeSystem`Atom[
               Quantity[1, "Percent"]], 
              TypeSystem`Atom[String], 
-             TypeSystem`Atom[String]}], 755], "Meta" -> Association[], 
-         "RowTarget" -> 20, "ColumnTarget" -> 10, "Shape" -> 
-         TypeSystem`PackageScope`HeaderShape[
-           
-           Association[{All, "Total"} -> 1, {All, "CareerCount"} -> 
-            1, {All, "YearCount"} -> 1, {All, "GameCount"} -> 
-            1, {All, "Date"} -> 1, {All, "BoxScoreURL"} -> 1, {All, "Team"} -> 
+             TypeSystem`Atom[String]}], 755], "Meta" -> <||>, "RowTarget" -> 
+         20, "ColumnTarget" -> 10, "Shape" -> 
+         TypeSystem`PackageScope`HeaderShape[<|{All, "Total"} -> 
+            1, {All, "CareerCount"} -> 1, {All, "YearCount"} -> 
+            1, {All, "GameCount"} -> 1, {All, "Date"} -> 
+            1, {All, "BoxScoreURL"} -> 1, {All, "Team"} -> 
             1, {All, "Location"} -> 1, {All, "Opponent"} -> 
             1, {All, "Pitcher"} -> 1, {All, "PitcherURL"} -> 
             1, {All, "PitcherID"} -> 1, {All, "Score"} -> 1, {All, "Inning"} -> 
             1, {All, "Outs"} -> 1, {All, "OnBase"} -> 1, {All, "RBIs"} -> 
             1, {All, "BattingOrderPosition"} -> 1, {All, "FieldingPosition"} -> 
             1, {All, "WinProbAdded"} -> 1, {All, "WinExpectency"} -> 
-            1, {All, "Description"} -> 1, {All, "Notes"} -> 1], 
+            1, {All, "Description"} -> 1, {All, "Notes"} -> 1|>, 
            TypeSystem`PackageScope`Limited[
             TypeSystem`PackageScope`ColumnShape[
              TypeSystem`PackageScope`Limited[
-              TypeSystem`PackageScope`RowShape[
-               Association[
+              
+              TypeSystem`PackageScope`RowShape[<|
                "Total" -> TypeSystem`PackageScope`AtomShape[34], 
                 "CareerCount" -> TypeSystem`PackageScope`AtomShape[34], 
                 "YearCount" -> TypeSystem`PackageScope`AtomShape[34], 
@@ -2910,7 +2865,7 @@ Cell[BoxData[
                 TypeSystem`PackageScope`AtomShape[60], "WinExpectency" -> 
                 TypeSystem`PackageScope`AtomShape[75], "Description" -> 
                 TypeSystem`PackageScope`AtomShape[560.], "Notes" -> 
-                TypeSystem`PackageScope`AtomShape[33.6]]], 
+                TypeSystem`PackageScope`AtomShape[33.6]|>], 
               DirectedInfinity[1], 10, {All}]], 20, 
             DirectedInfinity[1], {}]], "Type" -> TypeSystem`Vector[
            
@@ -2947,8 +2902,8 @@ Cell[BoxData[
              TypeSystem`Atom[String]}], 755], "Path" -> {}, 
          "DisplayedRowCount" -> 20, "DisplayedColumnCount" -> 10, 
          "DataRowCount" -> 755, "DataColumnCount" -> 23, "SortPaths" -> {}, 
-         "SortDirections" -> {}, "HiddenItemsMap" -> Null, "UpdateType" -> 1],
-        TypeSystem`NestedGrid`PackagePrivate`$outputID$$, 
+         "SortDirections" -> {}, "HiddenItemsMap" -> Null, "UpdateType" -> 
+         1|>, TypeSystem`NestedGrid`PackagePrivate`$outputID$$, 
        TypeSystem`NestedGrid`PackagePrivate`$path$$ = {}, 
        TypeSystem`NestedGrid`PackagePrivate`$vPos$$ = 1, 
        TypeSystem`NestedGrid`PackagePrivate`$hPos$$ = 1, 
@@ -6104,14 +6059,13 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                     TypeSystem`NestedGrid`PackagePrivate`isKeyDummy$], 
                     Nothing, 
                     MenuItem[
-                    StringJoin["Show ", 
-                    Which[
+                    "Show " <> Which[
                     TypeSystem`NestedGrid`PackagePrivate`lastPathType$ == 
                     "Item", "", 
                     TypeSystem`NestedGrid`PackagePrivate`lastPathType$ == 
                     "RowHeader", "Row", 
                     TypeSystem`NestedGrid`PackagePrivate`lastPathType$ == 
-                    "ColumnHeader", "Column", True, ""]], 
+                    "ColumnHeader", "Column", True, ""], 
                     KernelExecute[
                     TypeSystem`NestedGrid`PackagePrivate`updateHiddenItems[
                     TypeSystem`NestedGrid`PackagePrivate`$state$$, 
@@ -6136,14 +6090,13 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                     TypeSystem`NestedGrid`PackagePrivate`headerHidden$]], 
                     Nothing, 
                     MenuItem[
-                    StringJoin["Hide ", 
-                    Which[
+                    "Hide " <> Which[
                     TypeSystem`NestedGrid`PackagePrivate`lastPathType$ == 
                     "Item", "", 
                     TypeSystem`NestedGrid`PackagePrivate`lastPathType$ == 
                     "RowHeader", "Row", 
                     TypeSystem`NestedGrid`PackagePrivate`lastPathType$ == 
-                    "ColumnHeader", "Column", True, ""]], 
+                    "ColumnHeader", "Column", True, ""], 
                     KernelExecute[
                     TypeSystem`NestedGrid`PackagePrivate`updateHiddenItems[
                     TypeSystem`NestedGrid`PackagePrivate`$state$$, 
@@ -6192,7 +6145,8 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                     TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][
                     TypeSystem`NestedGrid`PackagePrivate`lastPath$, 
                     "Descending"]], MenuEvaluator -> Automatic], Nothing], 
-                    If[TypeSystem`NestedGrid`PackagePrivate`sortDirection$ =!= 
+                    If[
+                    TypeSystem`NestedGrid`PackagePrivate`sortDirection$ =!= 
                     None, 
                     MenuItem["Unsort", 
                     KernelExecute[
@@ -6340,14 +6294,12 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
           Hold[
             TypeSystem`NestedGrid`PackagePrivate`localHold[
             TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]], 
-         StandardForm], 
-        ImageSizeCache -> {1012., {312.8544921875, 318.1455078125}}, 
+         StandardForm], ImageSizeCache -> {0., {0., 0.}}, 
         TrackedSymbols :> {
          TypeSystem`NestedGrid`PackagePrivate`$state$$, 
           TypeSystem`NestedGrid`PackagePrivate`$grid$$}], 
        TypeSystem`NestedGrid`PackagePrivate`mouseAnnotation$$ = 
-       MouseAnnotation[], 
-       ImageSizeCache -> {1012., {312.8544921875, 318.1455078125}}], 
+       MouseAnnotation[], ImageSizeCache -> {0., {0., 0.}}], 
       BaseStyle -> {LineBreakWithin -> False}, DynamicModuleValues :> {}, 
       Initialization :> (TypeSystem`NestedGrid`PackagePrivate`$outputID$$ = 
        CreateUUID[]), 
@@ -6357,16 +6309,15 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
    DisplayFunction->(#& ),
    InterpretationFunction->("Dataset[<>]"& )],
   False,
-  BoxID -> 7078076914534622358615574456115890542055420401306515208200,
+  BoxID -> 7104898958621385275859088331763145285413677069430742597640,
   Editable->False,
   SelectWithContents->True,
-  Selectable->False]], "Output",
- CellLabel->"Out[1]=",
- CellID->1100314347,ExpressionUUID->"2092d3bb-f128-4716-91f6-3772d85fea9f"]
-}, Open  ]],
+  Selectable->False]], "Input",
+ CellLabel->"In[2]:=",
+ CellID->1854648163],
 
 Cell["See the pitchers Aaron homered off of the most:", "ExampleText",
- CellID->1316798226,ExpressionUUID->"8b8dd72d-62b0-4e9a-a0b9-cde0f8c60c62"],
+ CellID->1316798226],
 
 Cell[CellGroupData[{
 
@@ -6376,16 +6327,14 @@ Cell[BoxData[
    RowBox[{"Counts", "/*", 
     RowBox[{"TakeLargest", "[", "10", "]"}]}], ",", "\"\<Pitcher\>\""}], 
   "]"}]], "Input",
- CellLabel->"In[2]:=",
- CellID->448350887,ExpressionUUID->"ebae690a-1043-4617-8c08-cdd9c123782d"],
+ CellLabel->"In[3]:=",
+ CellID->448350887],
 
 Cell[BoxData[
  TagBox[
   TagBox[
-   DynamicModuleBox[{TypeSystem`NestedGrid`PackagePrivate`$state$$ = 
-    Association[
-    "InitialData" -> 
-     Association[
+   DynamicModuleBox[{TypeSystem`NestedGrid`PackagePrivate`$state$$ = <|
+    "InitialData" -> <|
       "Don\[NonBreakingSpace]Drysdale" -> 17, 
        "Claude\[NonBreakingSpace]Osteen" -> 14, 
        "Bob\[NonBreakingSpace]Friend" -> 12, "Roger\[NonBreakingSpace]Craig" -> 
@@ -6393,7 +6342,7 @@ Cell[BoxData[
        "Larry\[NonBreakingSpace]Jackson" -> 10, 
        "Mike\[NonBreakingSpace]McCormick" -> 9, "Vern\[NonBreakingSpace]Law" -> 
        9, "Robin\[NonBreakingSpace]Roberts" -> 9, 
-       "Harvey\[NonBreakingSpace]Haddix" -> 8], "AllowEmbedding" -> True, 
+       "Harvey\[NonBreakingSpace]Haddix" -> 8|>, "AllowEmbedding" -> True, 
      "InitialShape" -> TypeSystem`PackageScope`Limited[
        TypeSystem`PackageScope`ColumnShape[
         TypeSystem`PackageScope`KeyValueShape[
@@ -6408,8 +6357,8 @@ Cell[BoxData[
           "Mike\[NonBreakingSpace]McCormick", 
          "Robin\[NonBreakingSpace]Roberts", "Roger\[NonBreakingSpace]Craig", 
          "Vern\[NonBreakingSpace]Law"]], 
-       TypeSystem`Atom[Integer], 10], "Meta" -> Association[], "RowTarget" -> 
-     20, "ColumnTarget" -> 10, "Shape" -> TypeSystem`PackageScope`Limited[
+       TypeSystem`Atom[Integer], 10], "Meta" -> <||>, "RowTarget" -> 20, 
+     "ColumnTarget" -> 10, "Shape" -> TypeSystem`PackageScope`Limited[
        TypeSystem`PackageScope`ColumnShape[
         TypeSystem`PackageScope`KeyValueShape[
          TypeSystem`PackageScope`AtomShape[147.], 
@@ -6426,7 +6375,7 @@ Cell[BoxData[
        TypeSystem`Atom[Integer], 10], "Path" -> {}, "DisplayedRowCount" -> 10,
       "DisplayedColumnCount" -> 1, "DataRowCount" -> 10, "DataColumnCount" -> 
      1, "SortPaths" -> {}, "SortDirections" -> {}, "HiddenItemsMap" -> Null, 
-     "UpdateType" -> 1], TypeSystem`NestedGrid`PackagePrivate`$outputID$$, 
+     "UpdateType" -> 1|>, TypeSystem`NestedGrid`PackagePrivate`$outputID$$, 
     TypeSystem`NestedGrid`PackagePrivate`$path$$ = {}, 
     TypeSystem`NestedGrid`PackagePrivate`$vPos$$ = 1, 
     TypeSystem`NestedGrid`PackagePrivate`$hPos$$ = 1, 
@@ -6913,14 +6862,13 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                     TypeSystem`NestedGrid`PackagePrivate`isKeyDummy$], 
                     Nothing, 
                     MenuItem[
-                    StringJoin["Show ", 
-                    Which[
-                    TypeSystem`NestedGrid`PackagePrivate`lastPathType$ == 
+                    "Show " <> 
+                    Which[TypeSystem`NestedGrid`PackagePrivate`lastPathType$ == 
                     "Item", "", 
                     TypeSystem`NestedGrid`PackagePrivate`lastPathType$ == 
                     "RowHeader", "Row", 
                     TypeSystem`NestedGrid`PackagePrivate`lastPathType$ == 
-                    "ColumnHeader", "Column", True, ""]], 
+                    "ColumnHeader", "Column", True, ""], 
                     KernelExecute[
                     TypeSystem`NestedGrid`PackagePrivate`updateHiddenItems[
                     TypeSystem`NestedGrid`PackagePrivate`$state$$, 
@@ -6945,14 +6893,13 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
                     TypeSystem`NestedGrid`PackagePrivate`headerHidden$]], 
                     Nothing, 
                     MenuItem[
-                    StringJoin["Hide ", 
-                    Which[
-                    TypeSystem`NestedGrid`PackagePrivate`lastPathType$ == 
+                    "Hide " <> 
+                    Which[TypeSystem`NestedGrid`PackagePrivate`lastPathType$ == 
                     "Item", "", 
                     TypeSystem`NestedGrid`PackagePrivate`lastPathType$ == 
                     "RowHeader", "Row", 
                     TypeSystem`NestedGrid`PackagePrivate`lastPathType$ == 
-                    "ColumnHeader", "Column", True, ""]], 
+                    "ColumnHeader", "Column", True, ""], 
                     KernelExecute[
                     TypeSystem`NestedGrid`PackagePrivate`updateHiddenItems[
                     TypeSystem`NestedGrid`PackagePrivate`$state$$, 
@@ -7146,13 +7093,13 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
         Hold[
           TypeSystem`NestedGrid`PackagePrivate`localHold[
           TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]], StandardForm],
-      ImageSizeCache->{199., {140.8544921875, 146.1455078125}},
+      ImageSizeCache->{199., {140.634033203125, 146.365966796875}},
       TrackedSymbols:>{
        TypeSystem`NestedGrid`PackagePrivate`$state$$, 
         TypeSystem`NestedGrid`PackagePrivate`$grid$$}], 
      TypeSystem`NestedGrid`PackagePrivate`mouseAnnotation$$ = 
      MouseAnnotation[],
-     ImageSizeCache->{199., {140.8544921875, 146.1455078125}}],
+     ImageSizeCache->{199., {140.634033203125, 146.365966796875}}],
     BaseStyle->{LineBreakWithin -> False},
     DynamicModuleValues:>{},
     Initialization:>(TypeSystem`NestedGrid`PackagePrivate`$outputID$$ = 
@@ -7164,14 +7111,12 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
   Editable->False,
   SelectWithContents->True,
   Selectable->False]], "Output",
- CellLabel->"Out[2]=",
- CellID->2081878607,ExpressionUUID->"ca1bb12f-33cd-42ea-852d-1c978998ea8d"]
+ CellLabel->"Out[3]=",
+ CellID->371653224]
 }, Open  ]],
 
 Cell["Create a cumulative timeline plot of Aaron's home runs:", "ExampleText",
- CellID->971575112,ExpressionUUID->"97b068a9-09b8-4c3f-8a0e-0d9ec9d2a2a5"],
-
-Cell[CellGroupData[{
+ CellID->971575112],
 
 Cell[BoxData[
  RowBox[{"aaron", "[", 
@@ -7183,204 +7128,211 @@ Cell[BoxData[
        RowBox[{"#", ",", 
         RowBox[{"Range", "[", "755", "]"}]}], "}"}]}], "]"}], "&"}], ",", 
    "\"\<Date\>\""}], "]"}]], "Input",
- CellLabel->"In[3]:=",
- CellID->1937028987,ExpressionUUID->"869296f6-202d-4f7e-8ef7-0980eb1046ef"],
+ CellLabel->"In[4]:=",
+ CellID->1937028987]
+}, Open  ]]
+}, Dynamic[CurrentValue[
+ EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "0"}, 
+  Closed]]]]
+}, Dynamic[CurrentValue[
+ EvaluationNotebook[], {TaggingRules, "Openers", "PrimaryExamplesSection"}, 
+  Closed]]]],
 
 Cell[BoxData[
  GraphicsBox[
   TagBox[RasterBox[CompressedData["
 1:eJzt3e9TFdm97/G55zw5D++/cP6L8/Q+vE/Prfs0VefUDaASGIWojDp4YoUf
 UUyUEk0cjUyFmAzRqXEiP4xiMlXJOCMZUWdABwQEQRAEIUTHUdjne1llp2f1
-7u5N7x/f7t7vV+2x9l4u8Mua3h/WXnt173/9z9p/r/int956q+5f5I9//489
-/2vXrv9o+D//Ux7835q6bZU13/9//7um/vuV39/1b//5z9L4b//jrbcm5b//
-fz8DAAAAAAAAAAAAAAAAAAAAAAjU1tZ26dIl82cEDQ0N0b6woqIiKV8YbXBK
-P6QJ+n8RudRoo8qQBkjK4a01pLr5bAqIXIb8b4r2hfKzR/tCGe0S/4vnzp2L
-8FWRhzTaP5fJ4/9F6Yc0cqnRRrX0Qxp5ZEo/pCU+vJM1pOTzVpHPfshnP+Rz
-APLZD/kcAfnsh3z2Qz4HIJ/9xCefI4s82qmn/n82zjhs/EQOk9RTGRn1ZzH5
-XCTq/2fjjMPGD/nsh3wGADjU41G9AACIJ/V4VC8AAOJJPR7VCwCAeFKPR/UC
-ACCe1ONRvQAAULGw/Ny5Ze2gHo/qBQBA6Y1MLH7vvy6b265jA1n7qMejegEA
-UGKf3Jp2wpl8BoA4WFh+LuHc3HkjEfnc0NBwbpNuGQAQjUTuyMTixev3T390
-W4I3+OaOZedmrT+fe0M9n9ULAIBozGRYZr9ZUzeXm9/M2VCPR/UCACACmTD7
-zYdzD2f5JgH/hHo8qhcAAFsi0+bTH932i1wJbUldmVcH30YmFkP/IfV4VC8A
-ANwkOYNXkrMuaEi7pG5hK1GPR/UCAMCQZPaL3+BlCsnzYtSjHo/qBQBAZnPV
-IsJ6cpGS2VCPR/UCAJS5i9fv+82ZJX6Dl5GLWph6PKoXAKBsBeyOk9DO5S28
-olKPR/UCAJSnheXnKqsWuVOPR/UCAKSV+wJx3pt3tVnm0jKj9ruaXOmpx6N6
-AQBSaWRiMfedGKGniqhQj0f1AgCk0pY2Y8RnzuymHo/qBQBIH+sCnsG3Ym/D
-iEw9HtULAJAyMhm2VjbMqrLfTbteX+rxqF4AgDRxfy5JzKfHodTjsaGhoW2T
-bhkA0iHHS9/HWdsb6vmsXgCA1EjT5DkTg3hULwBAOnjPN1E/ATBP6vGoXgCA
-dLh4/X4MzwHMh3o8qhcAIAWscJabdkUFoB6P6gUASDrvqYJJX9kw1ONRvQAA
-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
-tB4zAAAAAAAAAAAAAAAAAAAAAAAASK7/Bgj04OA=
-    "], {{0, 156.}, {240., 0}}, {0, 
-    255},
+7u5N7x/f7t7vV/VM7b1YbL4se39Ye+3u3v/6n7X/XvFPb731Vt2/yP/+/T/2
+/K9du/6j4f/8T7nzf2vqtlXWfP///e+a+u9Xfn/Xv/3nP0vjv/2Pt96alP/+
+/+0MAAAAAAAAAAAAAAAAAAAAACBQW1vbpUuXzP8jaGhoiPaNFRUVSfnGaINT
++iFN0L9F5FKjjSpDGiApu7dWYujmsykgchnyzxTtG+WfKdo3yqCV+CeeO3cu
+wndFHtJoPy6Tx79F6Yc0cqnRRrX0Qxp5ZEo/pCXevZOVGOTzVpHPfshnP+Rz
+API54CeSz1tFPvshn/2QzwHI54CfGJN8jizyaKee+r9snLHb+ImcQqmnMjLq
+z2LyuUjU/2XjjN3GD/nsh3wGADjU41G9AACIJ/V4VC8AAOJJPR7VCwCAeFKP
+R/UCACCe1ONRvQAAULGw/NzZsnZQj0f1AgCg9EYmFr/3X5fNtuvYQNY+6vGo
+XgAAlNgnt6adcCafASAOFpafSzg3d95IRD43NDSc26RbBgBEI5E7MrF48fr9
+0x/dluAN3tyx7GzW+vO5N9TzWb0AAIjGTIZl9ps1dXPZ/GbOhno8qhcAABHI
+hNlvPpx7OMuDBPwI9XhULwAAtkSmzac/uu0XuRLakroyrw7eRiYWQ3+Qejyq
+FwAAbpKcwSvJWRc0pF1St7CVqMejegEAYEgy+8Vv8DKF5Hkx6lGPR/UCACCz
+uWoRYT25SMlsqMejegEAytzF6/f95swSv8HLyEUtTD0e1QsAULYCjo6T0M7l
+LbyiUo9H9QIAlKeF5ecqqxa5U49H9QIApJX7AnHezbvaLHNpmVH7XU2u9NTj
+Ub0AAKk0MrGY+5EYoaeKqFCPR/UCAKTSlg7GiM+c2U09HtULAJA+1gU8g7di
+H4YRmXo8qhcAIGVkMmytbJhVZb9Nu15f6vGoXgCANHF/LknMp8eh1OOxoaGh
+bZNuGQDSIcdL38dZ2xvq+axeAIDUSNPkORODeFQvAEA6eM83UT8BME/q8ahe
+AIB0uHj9fgzPAcyHejyqFwAgBaxwlk27ogJQj0f1AgAknfdUwaSvbBjq8ahe
+AICksz5tqrnzhnZFhaEej+oFAEg065iNJB5Q50c9HtULABBz5irNflvKjtlw
+U49H9QIAxJn3kOaALQXHbLipx6N6AQDibEuf1qpdbIGpx6N6AQBiywpnc/18
+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
+Ig9ptB+XyePfovRDGrnUaKNa+iGNPDKlH9IS797JSozC5vPq6mpdXZ05ikMy
+uampSW7v3r3bb3EjQz7ngHz2Qz77IZ/9JCsxCv4qeHFxsaWlpbKy0lwfSYJ6
+ZmYmoD/5HIp89kM++yGf/SQrMYq0Srm2tjY5Obm0tBTak3wORT77IZ/9kM9+
+kpUY6u8inUsaGW3tEtKGIY0P/i0KLp8h1Q1nAAAAAAAAAAAAAAAAAAAAAEio
+V69enT9//ubNm94vjY6O9vT0/PrXv75y5UrW0xIfPHjwmcfIyEjuHeIsYGQy
+OQzOysrKtWvX5BEuXrw4ODhoXQBWzM7OyiN0dXVdunRpejphH4KQz24TPDKJ
+3mcykUbm+fPnN/y5e5bbPpPjyCR9nwnwq1/9qqKi4re//a27UUbSnIPj2L59
++5/+9Cfre48cOVLh8ZOf/CT3DnGWdWQyuQ3O0NCQuQS3o6mp6cWLF06Hq1ev
+VlVVOV+trKyUPbMUv1WBRN5tQkcm0ftMJtLIzMzMeH9lx1//+lfTrQz3mRxH
+Jun7TFbyt8kZGWvQfv/730vjD37wg+vXr8uf7L/85S9vv/22tNy9e9fdTRpl
+J5Hv/cBFviX3DvEUMDKZHAZnbm5ux44d0tLd3f3kyZPh4eEDBw7IXZn2mA5j
+Y2MyLLIfDgwMyB7Y399vnncPHz4s6e8ZST67TejIZBK7z2TyGJnV1dUPPH78
+4x9LB/lbNj8/nynXfSaXkckkeZ/xc+fOnd27dzt/a9yD9vr1a/Mk+vzzz53G
+L774QlpkZJyWxcVFadm3b5/fjwjtEE8BI5PJbXDOnj0rd+WlnNNhcnJSWnbu
+3Gley3d0dMjdvr4+p0Nvb6+0dHZ2Fvd3y1ueu03oyCR0n8kU4gnlJuMgYyKZ
+I91MS9nuMxbvyCR3nwlg/kgdPXr0ww8/tAZN/opJS11dnfUt8jdO2v/2t7+Z
+u7du3ZK7P//5z/1+RGiHeAoYmUwOg7O+vi5/2WX/sa6/LXupTIHkhgRRbW2t
+dF5eXna+urKyIt9SXV1tPmQhtvLZbUJHJpPYfSZTiCeUmzyOO3vLdp/xPpo1
+Mpkk7zMBfvazn5nVG3m5ZA2a+UzwH/3oR9a3/PCHP5T2r7/+2ty9dOmS3JXX
+ER9//PHJkyd/+ctfyguKb7/91ukf2iGeAkYmk8PgPH78WG4cOnRInlPSuaen
+59q1aw8ePHB6youyrPtkfX29tM/NzRXn1yqMfHab0JHJJHafyRTiCeUYHByU
+9l27dq2trZmWst1nrHbvyGSSvM/kwjtoT58+NStC7ndtZM5jrv8/NDRkWk6c
+OFHh0djYuLCwkGOHmMuaz6GDc/fuXbnR1tZm/tA73nvvPbPPjI+Pm5iyfpy0
+SPvo6GgJfrX8RdhtQkcmk/x9JpPHE8qQVxnvvPOOtMvjOI1lu8+4vz3ryGRS
+sc8E8A6aTG/2798vjWfOnHn16pW0yNPn1KlT5hf/7LPPTLeGhga5e/DgwS++
++OLJkyfyJ9J8Uq08Ac1aYmiHmMuaz6GDc/PmTXNb9rH3339f7sqfdXkRWvHm
+EyHNnKG5udn6ca2trdI+PDxcsl8wHxF2m9CRySR/n8nk8YQyzCjJxPjly5dO
+Y9nuM+5vzzoymVTsMwGyptBXX31l/oTt2bOnvb1d/l9VVSX/l5bbt2+bPjId
++uMf/+h+ofHo0aNt27ZVvHlPObRDzGUdmUzY4MhOZfauy5cvO9/y5ZdfSov8
+7jJPMM+1lpYW62GlRdrv3btX9F+sECLsNqEjk0n+PpPJ4wllmN3A/T5g5k0+
+l+E+4+6ZdWQyqdhnAvilkPyjy2sEM3Ty9+jWrVuHDx+uyLYo5CZ/4qXPp59+
+GrlDfPiNTCZwcORFmZkifvPNN+5vMfMEeaE6MTFh/txbjykPKO1TU1PF+40K
+KMJuEzoyfj8rQftMJr8n1NLSUuUm9/uAomz3GaeP38j4SdY+EyAghTKbBy4+
+e/bM3DYHyTh35Vnm3Hb89Kc/lT5//vOfc+kQc8Ejk/EZHHmyyA2ZA1jvqpuX
+onfu3FldXZUbtbW11osvc9ZGwKeux0qE3SZ0ZDLJ32cyeTyhMptnoJgX5tZ3
+le0+43zVb2QyqdhnAmQdtN/85je/+MUv3M8j8w6Fc5ChvHCo2FzYN6tGhtw2
+byiPjY2Fdijyr1UAfrtT8ODI72jWVCcnJ50O0tn84vLKS+6a9TH3tMdkV+RP
+wyy9CLtN6MikYJ/JRH1CGSdPnpTG3t5e78OW5z7j8BuZdOwzAbIOWlNTkzTe
+uHHD3JU/beb1grP4s76+vnPnTmvELl68KC3vvvvu+qbgDsX/zfLll8+hg3Pm
+zBmzWugcltDf3292OTP/6e7ulrvt7e1mt5T/Hz9+vML1Nln8RdttgkcmBftM
+JurIGGbeaF5KWMp2nzH8RiYd+0yArIP2+eefS+OOHTu6uro++OADefpUbB7e
+437n9NNPP63Y1NHRcenSJXnpYV69Ou8mh3aIOb98Dh2cp0+f1tXVmUb5xc37
+0ZWVlc7xQvKC1HSQXVGeX2YXlT0wKS9UM1F3m9CRSfo+k8njCSWv083vnvXA
+sLLdZzJhI5OCfSbA9evXs6bQtWvXzClL5peVmY/3dB75q2eOJDcOHDjw1Vdf
+balDnPmNTCaHwZmbmzty5Ih5y6Ni873pwcFBd4fFxUWZRjod5Ek3MzNT3N+n
+oCLvNqEjk+h9JpPHyJjzlOWlut9RYWW7z4SOTNL3mWhevXolO8DU1JS86PDr
+IyMmk6KJiQnnWiVb7ZBQuQzOs2fP5BefnZ31OwN3bW1tcnIy60U4kyv/kSnn
+fSZU2e4zwdK6zwAAAAAAAAAAAAAAAAAAAAAAACC5/huV4tzG
+    
+    "], {{0, 156.}, {240., 0}}, {0, 255},
     ColorFunction->RGBColor,
     ImageResolution->{144., 144.},
     SmoothingQuality->"High"],
@@ -7391,25 +7343,12 @@ tB4zAAAAAAAAAAAAAAAAAAAAAAAASK7/Bgj04OA=
   ImageSizeRaw->{240., 156.},
   PlotRange->{{0, 240.}, {0, 156.}}]], "Output",
  CellTags->"RasterizedOutput",
- CellLabel->"Out[3]=",
- CellID->243013949,ExpressionUUID->"cece83c7-c3aa-4037-948a-82d586a29d6b"]
-}, Open  ]],
+ CellLabel->"Out[4]=",
+ CellID->373605132],
 
 Cell[BoxData[""], "Input",
- CellLabel->"In[4]:=",
- CellID->48281911,ExpressionUUID->"c9965195-4cdc-4d79-a76b-49ee6fd463f2"],
-
-Cell["Tech Notes", "TechNotesSection",
- CellID->250839057,ExpressionUUID->"7395d4ef-9f22-4b33-8db6-95965fe93251"]
-}, Open  ]]
-}, Dynamic[CurrentValue[
- EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "0"}, 
-  Closed]]]]
-}, Dynamic[CurrentValue[
- EvaluationNotebook[], {TaggingRules, "Openers", "PrimaryExamplesSection"}, 
-  Closed]]]],
-
-Cell[" ", "FooterCell",ExpressionUUID->"3be917c2-a7be-45af-a376-2c659c2c2e21"]
+ CellLabel->"In[5]:=",
+ CellID->48281911]
 },
 Saveable->False,
 ScreenStyleEnvironment->"Working",
@@ -7418,18 +7357,19 @@ WindowMargins->{{0, Automatic}, {Automatic, 0}},
 WindowTitle->"PlayerHomers",
 TaggingRules->{
  "ModificationHighlight" -> False, "ColorType" -> "", "LinkTrails" -> "", 
-  "ExampleCounter" -> 1, "NeedPlatMsgIn" -> None, 
+  "ExampleCounter" -> 1, 
   "Openers" -> {
-   "PrimaryExamplesSection" -> Open, "ExampleSection" -> {"0" -> Open}, 
-    "NotesSection" -> Closed}, "NewStyles" -> True, 
-  "CitationPopupData" -> $Failed, "ShowCitation" -> False, "RootCaptions" -> 
-  "", "Metadata" -> {
-   "built" -> "{2021, 7, 16, 10, 16, 56.549753}", 
+   "PrimaryExamplesSection" -> Open, 
+    "ExampleSection" -> {"0" -> Open, "1" -> Closed}, "NotesSection" -> 
+    Closed}, "NewStyles" -> True, "CitationPopupData" -> $Failed, 
+  "ShowCitation" -> False, "RootCaptions" -> "", 
+  "Metadata" -> {
+   "built" -> "{2021, 10, 8, 8, 26, 19.537062}", 
     "history" -> {"??", "", "", ""}, "context" -> 
-    "BobSandheinrich`BaseballReferenceData`", "keywords" -> {}, 
-    "specialkeywords" -> {}, "tutorialcollectionlinks" -> {}, "index" -> True,
-     "label" -> "Bob__ Baseball Reference Data Symbol", "language" -> "en", 
-    "paclet" -> "Bob__BaseballReferenceData", "status" -> "None", "summary" -> 
+    "Bob`BaseballReferenceData`", "keywords" -> {}, "specialkeywords" -> {}, 
+    "tutorialcollectionlinks" -> {}, "index" -> True, "label" -> 
+    "Bob__ Baseball Reference Data Symbol", "language" -> "en", "paclet" -> 
+    "Bob__BaseballReferenceData", "status" -> "None", "summary" -> 
     "PlayerHomers[id] retrieves information about all career home runs by the \
 player specified by Baseball-Reference id.", "synonyms" -> {}, 
     "tabletags" -> {}, "title" -> "PlayerHomers", "titlemodifier" -> "", 
@@ -7437,18 +7377,8 @@ player specified by Baseball-Reference id.", "synonyms" -> {},
     "Bob__BaseballReferenceData/ref/PlayerHomers", "WorkflowDockedCell" -> 
     ""}, "SearchTextTranslated" -> ""},
 CellContext->"Global`",
-FrontEndVersion->"12.4 for Mac OS X x86 (64-bit) (July 6, 2021)",
-StyleDefinitions->Notebook[{
-   Cell[
-    StyleData[
-    StyleDefinitions -> FrontEnd`FileName[{"Wolfram"}, "Reference.nb"]]], 
-   Cell[
-    StyleData["Input"], CellContext -> "Global`"], 
-   Cell[
-    StyleData["Output"], CellContext -> "Global`"]}, Visible -> False, 
-  FrontEndVersion -> "12.4 for Mac OS X x86 (64-bit) (July 6, 2021)", 
-  StyleDefinitions -> "Default.nb"],
-ExpressionUUID->"f34252d1-2aec-4d25-9c8a-cbbfee2110d9"
+FrontEndVersion->"13.0 for Mac OS X x86 (64-bit) (September 24, 2021)",
+StyleDefinitions->"Default.nb"
 ]
 (* End of Notebook Content *)
 
@@ -7456,92 +7386,82 @@ ExpressionUUID->"f34252d1-2aec-4d25-9c8a-cbbfee2110d9"
 (*CellTagsOutline
 CellTagsIndex->{
  "PrimaryExamplesSection"->{
-  Cell[8156, 216, 1390, 37, 36, "PrimaryExamplesSection",ExpressionUUID->"af398810-5d79-4d99-89cb-c8de4fa08dcf",
+  Cell[6831, 200, 1163, 35, 70, "PrimaryExamplesSection",ExpressionUUID->"a3c0d4c7-4c27-4176-b87e-5b6c324f25b3",
    CellTags->"PrimaryExamplesSection",
-   CellID->1906426891]},
+   CellID->985726695]},
  "RasterizedOutput"->{
-  Cell[373870, 7188, 12141, 206, 177, "Output",ExpressionUUID->"cece83c7-c3aa-4037-948a-82d586a29d6b",
+  Cell[370706, 7140, 12094, 206, 70, "Output",ExpressionUUID->"5340c31d-a8e9-4692-8fe5-18f258e142ed",
    CellTags->"RasterizedOutput",
-   CellID->243013949]}
+   CellID->373605132]}
  }
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"PrimaryExamplesSection", 388583, 7457},
- {"RasterizedOutput", 388783, 7461}
+ {"PrimaryExamplesSection", 384455, 7387},
+ {"RasterizedOutput", 384654, 7391}
  }
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[584, 21, 3482, 82, 57, "AnchorBarGrid",ExpressionUUID->"9117a7b8-e538-4f45-b65c-a2c63efc2c9c",
+Cell[584, 21, 3023, 75, 70, "AnchorBarGrid",ExpressionUUID->"30ddda1d-763b-46e7-a512-a37a6543e5a9",
  CellID->1],
-Cell[4069, 105, 120, 0, 23, "ContextNameCell",ExpressionUUID->"15e6fc90-8f46-45c8-9a91-78f664c7c5bd"],
+Cell[3610, 98, 53, 0, 70, "ContextNameCell",ExpressionUUID->"565d313e-a8a4-4a1f-bf40-88a7d3ee63c2"],
+Cell[3666, 100, 922, 30, 70, "ObjectNameGrid",ExpressionUUID->"e5e6fbe8-224f-4b61-ad0a-35f226332d47"],
+Cell[4591, 132, 424, 11, 70, "Usage",ExpressionUUID->"395b6314-5504-4cfb-a290-650d0ccb70c2",
+ CellID->982511436],
 Cell[CellGroupData[{
-Cell[4214, 109, 1172, 32, 60, "ObjectNameGrid",ExpressionUUID->"8f94db57-4fc1-41e6-bf4e-6ea2cf017131"],
-Cell[5389, 143, 596, 12, 112, "Usage",ExpressionUUID->"a7dff200-04dd-406f-9578-c40834319cf9",
- CellID->982511436]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[6022, 160, 1887, 47, 37, "NotesSection",ExpressionUUID->"05cedb55-421a-4dc6-b73b-f8abc8187157",
+Cell[5040, 147, 1599, 44, 70, "NotesSection",ExpressionUUID->"98a441de-62eb-4575-b293-f552e85cc907",
  CellGroupingRules->{"SectionGrouping", 50},
- CellID->1077241243],
-Cell[7912, 209, 117, 1, 70, "Notes",ExpressionUUID->"8d502152-a030-4da8-be8a-ef52b761db97",
+ CellID->96399619],
+Cell[6642, 193, 62, 1, 70, "Notes",ExpressionUUID->"79847fc6-5e1a-4a9c-8941-a062c6a2fc6c",
  CellID->1067943069]
 }, Dynamic[CurrentValue[EvaluationNotebook[], {TaggingRules, "Openers", "NotesSection"}, Closed]]]],
 Cell[CellGroupData[{
-Cell[8156, 216, 1390, 37, 36, "PrimaryExamplesSection",ExpressionUUID->"af398810-5d79-4d99-89cb-c8de4fa08dcf",
+Cell[6831, 200, 1163, 35, 70, "PrimaryExamplesSection",ExpressionUUID->"a3c0d4c7-4c27-4176-b87e-5b6c324f25b3",
  CellTags->"PrimaryExamplesSection",
- CellID->1906426891],
+ CellID->985726695],
 Cell[CellGroupData[{
-Cell[9571, 257, 1367, 36, 31, "ExampleSection",ExpressionUUID->"08978b49-960d-4166-a02b-21e3e832802c",
- CellID->860743797],
-Cell[10941, 295, 158, 2, 38, "ExampleText",ExpressionUUID->"1e2281bc-0518-4414-9016-4c23553866b2",
+Cell[8019, 239, 1142, 34, 70, "ExampleSection",ExpressionUUID->"776ece16-feca-49ea-9599-ad3a45415af5",
+ CellID->1419709907],
+Cell[9164, 275, 103, 2, 70, "ExampleText",ExpressionUUID->"b699602a-8a9d-4a76-9baa-62a39c2672e2",
  CellID->369542846],
 Cell[CellGroupData[{
-Cell[11124, 301, 179, 3, 29, "Input",ExpressionUUID->"c1e52280-61f1-486d-81f2-90d8c23406e3",
+Cell[9292, 281, 153, 4, 70, "Input",ExpressionUUID->"048ff10d-0570-48df-99de-e7717471dc62",
  CellID->879267319],
-Cell[11306, 306, 126937, 2452, 405, "Output",ExpressionUUID->"8269550c-e581-4f41-a863-e972a5e1c994",
- CellID->1001545712]
+Cell[9448, 287, 126262, 2431, 70, "Output",ExpressionUUID->"7efb957e-a83a-4820-80f7-e99c6187d447",
+ CellID->722398637]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[138280, 2763, 243, 5, 70, "ExampleDelimiter",ExpressionUUID->"7df96111-616a-476a-a9e0-9750611e0bef",
+Cell[135747, 2723, 126, 3, 70, "ExampleDelimiter",ExpressionUUID->"ce9d77a1-e22a-4fac-80a0-4308c9cfc82a",
  CellID->1524979020],
-Cell[138526, 2770, 135, 1, 70, "ExampleText",ExpressionUUID->"f8bc78d7-aa6b-4098-90a9-6e9ad700bed8",
+Cell[135876, 2728, 80, 1, 70, "ExampleText",ExpressionUUID->"ea0959a7-df66-41db-be44-3e6f476c973a",
  CellID->614017954],
-Cell[CellGroupData[{
-Cell[138686, 2775, 206, 4, 70, "Input",ExpressionUUID->"436595ae-f121-454c-b4b8-48fbc1c7b634",
+Cell[135959, 2731, 184, 6, 70, "Input",ExpressionUUID->"f7f5b8dc-572d-4097-adc4-756682a5f70d",
  CellID->105062195],
-Cell[138895, 2781, 189983, 3583, 655, "Output",ExpressionUUID->"2092d3bb-f128-4716-91f6-3772d85fea9f",
- CellID->1100314347]
-}, Open  ]],
-Cell[328893, 6367, 146, 1, 70, "ExampleText",ExpressionUUID->"8b8dd72d-62b0-4e9a-a0b9-cde0f8c60c62",
+Cell[136146, 2739, 189731, 3577, 70, "Input",ExpressionUUID->"dc8113a9-8bd3-43e0-a9a1-17faa3a64053",
+ CellID->1854648163],
+Cell[325880, 6318, 91, 1, 70, "ExampleText",ExpressionUUID->"1ee0d169-0a95-4bdc-acbd-16c3f5d3f9b8",
  CellID->1316798226],
 Cell[CellGroupData[{
-Cell[329064, 6372, 267, 7, 70, "Input",ExpressionUUID->"ebae690a-1043-4617-8c08-cdd9c123782d",
+Cell[325996, 6323, 212, 7, 70, "Input",ExpressionUUID->"3f6a52cf-9567-490d-b934-7f932adcb468",
  CellID->448350887],
-Cell[329334, 6381, 43952, 786, 70, "Output",ExpressionUUID->"ca1bb12f-33cd-42ea-852d-1c978998ea8d",
- CellID->2081878607]
+Cell[326211, 6332, 43804, 782, 70, "Output",ExpressionUUID->"e3046b61-6cdc-4778-bd33-556ed69e0777",
+ CellID->371653224]
 }, Open  ]],
-Cell[373301, 7170, 153, 1, 70, "ExampleText",ExpressionUUID->"97b068a9-09b8-4c3f-8a0e-0d9ec9d2a2a5",
+Cell[370030, 7117, 98, 1, 70, "ExampleText",ExpressionUUID->"b661edde-c0ca-41db-9020-7e19820933b8",
  CellID->971575112],
-Cell[CellGroupData[{
-Cell[373479, 7175, 388, 11, 70, "Input",ExpressionUUID->"869296f6-202d-4f7e-8ef7-0980eb1046ef",
- CellID->1937028987],
-Cell[373870, 7188, 12141, 206, 177, "Output",ExpressionUUID->"cece83c7-c3aa-4037-948a-82d586a29d6b",
- CellTags->"RasterizedOutput",
- CellID->243013949]
-}, Open  ]],
-Cell[386026, 7397, 123, 2, 70, "Input",ExpressionUUID->"c9965195-4cdc-4d79-a76b-49ee6fd463f2",
- CellID->48281911],
-Cell[386152, 7401, 113, 1, 70, "TechNotesSection",ExpressionUUID->"7395d4ef-9f22-4b33-8db6-95965fe93251",
- CellID->250839057]
+Cell[370131, 7120, 333, 11, 70, "Input",ExpressionUUID->"9dac36b7-ddc1-4a2c-8558-ef611c9b2f95",
+ CellID->1937028987]
 }, Open  ]]
 }, Dynamic[CurrentValue[EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "0"}, Closed]]]]
 }, Dynamic[CurrentValue[EvaluationNotebook[], {TaggingRules, "Openers", "PrimaryExamplesSection"}, Closed]]]],
-Cell[386507, 7411, 78, 0, 70, "FooterCell",ExpressionUUID->"3be917c2-a7be-45af-a376-2c659c2c2e21"]
+Cell[370706, 7140, 12094, 206, 70, "Output",ExpressionUUID->"5340c31d-a8e9-4692-8fe5-18f258e142ed",
+ CellTags->"RasterizedOutput",
+ CellID->373605132],
+Cell[382803, 7348, 68, 2, 70, "Input",ExpressionUUID->"20bfdd1e-0e12-4d8d-b4a5-a8e9a8cf261c",
+ CellID->48281911]
 }
 ]
 *)
 
 (* End of internal cache information *)
-
