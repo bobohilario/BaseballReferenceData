@@ -1,0 +1,217 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      7444,        208]
+NotebookOptionsPosition[      4866,        153]
+NotebookOutlinePosition[      6520,        193]
+CellTagsIndexPosition[      6477,        190]
+WindowTitle->BaseballReferenceData
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[GridBox[{
+   {GridBox[{
+      {
+       ItemBox[Cell[BoxData[
+         RowBox[{
+          TemplateBox[{12},
+           "Spacer1"], Cell[
+          "BOB__ BASEBALL REFERENCE DATA GUIDE", "PacletNameCell",
+           TextAlignment->Center], 
+          TemplateBox[{8},
+           "Spacer1"]}]],
+         TextAlignment->Center],
+        Background->RGBColor[0.85098, 0.396078, 0],
+        ItemSize->Full], ""}
+     },
+     GridBoxAlignment->{"Rows" -> {{Center}}},
+     GridBoxItemSize->{"Columns" -> {Full, 
+         Scaled[0.02]}, "Rows" -> {{2.5}}}], Cell[TextData[Cell[BoxData[
+     TagBox[
+      ActionMenuBox[
+       FrameBox[Cell[TextData[{
+         "URL",
+         " ",
+         Cell[BoxData[
+          GraphicsBox[
+           {GrayLevel[0.66667], Thickness[0.13], 
+            LineBox[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]},
+           AspectRatio->1,
+           ImageSize->20,
+           PlotRange->{{-3, 4}, {-1, 1}}]]]
+        }]],
+        StripOnInput->
+         False], {"\<\"Bob__BaseballReferenceData/guide/BaseballReferenceData\
+\"\>":>None, "\<\"Copy Wolfram Documentation Center URL\"\>":>
+       Module[{DocumentationSearch`Private`nb$}, 
+        DocumentationSearch`Private`nb$ = NotebookPut[
+           Notebook[{
+             Cell["Bob__BaseballReferenceData/guide/BaseballReferenceData"]}, 
+            Visible -> False]]; 
+        SelectionMove[DocumentationSearch`Private`nb$, All, Notebook]; 
+        FrontEndTokenExecute[DocumentationSearch`Private`nb$, "Copy"]; 
+        NotebookClose[DocumentationSearch`Private`nb$]; Null], 
+       Delimiter, "\<\"Copy web URL\"\>":>
+       Module[{DocumentationSearch`Private`nb$}, 
+        DocumentationSearch`Private`nb$ = NotebookPut[
+           Notebook[{
+             Cell[
+              BoxData[
+               MakeBoxes[
+                Hyperlink[
+                "http://reference.wolfram.com/language/Bob__\
+BaseballReferenceData/guide/BaseballReferenceData.html"], StandardForm]], 
+              "Input", TextClipboardType -> "PlainText"]}, Visible -> False]]; 
+        SelectionMove[DocumentationSearch`Private`nb$, All, Notebook]; 
+        FrontEndTokenExecute[DocumentationSearch`Private`nb$, "Copy"]; 
+        NotebookClose[DocumentationSearch`Private`nb$]; 
+        Null], "\<\"Go to web URL\"\>":>FrontEndExecute[{
+         NotebookLocate[{
+           URL[(If[
+               TrueQ[DocumentationBuild`Make`Private`wsmlinkQ$127496], 
+               "http://reference.wolfram.com/system-modeler/", 
+               "http://reference.wolfram.com/language/"] <> 
+             "Bob__BaseballReferenceData/guide/BaseballReferenceData") <> 
+            ".html"], None}]}]},
+       Appearance->None,
+       MenuAppearance->Automatic,
+       MenuStyle->"URLMenu"],
+      MouseAppearanceTag["LinkHand"]]],
+     LineSpacing->{1.4, 0}]], "AnchorBar",
+     CacheGraphics->False]}
+  }]], "AnchorBarGrid",
+ GridBoxOptions->{GridBoxItemSize->{"Columns" -> {
+     Scaled[0.65], {
+      Scaled[0.34]}}, "ColumnsIndexed" -> {}, "Rows" -> {{1.}}, 
+   "RowsIndexed" -> {}}},
+ CellID->1],
+
+Cell[CellGroupData[{
+
+Cell["BaseballReferenceData", "GuideTitle",
+ CellID->127213123],
+
+Cell[TextData[{
+ "Retrieve data from ",
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["Baseball-Reference.com"]], 
+    "https://www.baseball-reference.com"},
+   "WebLink",
+   BaseStyle->{"GuideAbstract"}]]],
+ "."
+}], "GuideAbstract",
+ CellID->1324729496],
+
+Cell["\t", "GuideDelimiterSubsection"]
+}, Open  ]],
+
+Cell[TextData[{
+ Cell["PlayerSearch", "InlineFunctionSansUnlinked"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " search based on player names"
+}], "GuideText",
+ CellID->1700487915],
+
+Cell[TextData[{
+ Cell["PlayerHomers", "InlineFunctionSansUnlinked"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " get data about home runs hit"
+}], "GuideText",
+ CellID->1388013129],
+
+Cell[TextData[{
+ Cell["TeamYearSchedule", "InlineFunctionSansUnlinked"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " schedule and results for a team in a year"
+}], "GuideText",
+ CellID->1263733669],
+
+Cell[TextData[{
+ Cell["TeamPaths", "InlineFunctionSansUnlinked"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " baseball-reference URL paths for team pages"
+}], "GuideText",
+ CellID->958506053],
+
+Cell[" ", "FooterCell"]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{900, 830},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"BaseballReferenceData",
+TaggingRules->{
+ "ModificationHighlight" -> False, "ColorType" -> "", "LinkTrails" -> "", 
+  "ExampleCounter" -> 1, 
+  "Openers" -> {
+   "PrimaryExamplesSection" -> Open, "ExampleSection" -> {"0" -> Open}}, 
+  "NewStyles" -> True, "CitationPopupData" -> {"", ""}, "ShowCitation" -> 
+  False, "RootCaptions" -> "", 
+  "Metadata" -> {
+   "built" -> "{2021, 10, 8, 8, 26, 17.851580}", 
+    "history" -> {"??", "", "", ""}, "context" -> 
+    "Bob`BaseballReferenceData`", "keywords" -> {}, "specialkeywords" -> {}, 
+    "tutorialcollectionlinks" -> {}, "index" -> True, "label" -> 
+    "Bob__ Baseball Reference Data Guide", "language" -> "en", "paclet" -> 
+    "Bob__BaseballReferenceData", "status" -> "None", "summary" -> 
+    "Retrieve data from Baseball-Reference.com.", "synonyms" -> {}, 
+    "tabletags" -> DocumentationBuild`Make`Private`tabletaggingrules$127467, 
+    "title" -> "BaseballReferenceData", "titlemodifier" -> "", "windowtitle" -> 
+    "BaseballReferenceData", "type" -> "Guide", "uri" -> 
+    "Bob__BaseballReferenceData/guide/BaseballReferenceData", 
+    "WorkflowDockedCell" -> ""}, "SearchTextTranslated" -> ""},
+CacheGraphics->False,
+FrontEndVersion->"13.0 for Mac OS X x86 (64-bit) (September 24, 2021)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[593, 21, 3052, 75, 70, "AnchorBarGrid",ExpressionUUID->"ff41b0ec-c124-4ecd-9ff7-3e9005dadac7",
+ CellID->1],
+Cell[CellGroupData[{
+Cell[3670, 100, 63, 1, 70, "GuideTitle",ExpressionUUID->"1fe4d0f4-9c7d-4d0a-9d5f-160b36575277",
+ CellID->127213123],
+Cell[3736, 103, 263, 11, 70, "GuideAbstract",ExpressionUUID->"9a90be07-5632-4743-a0de-febd5740b5b8",
+ CellID->1324729496],
+Cell[4002, 116, 38, 0, 70, "GuideDelimiterSubsection",ExpressionUUID->"161b85c6-1441-4396-ad87-6778c8a1e318"]
+}, Open  ]],
+Cell[4055, 119, 186, 6, 70, "GuideText",ExpressionUUID->"b47b102a-fb95-4827-99fb-85266d511bf8",
+ CellID->1700487915],
+Cell[4244, 127, 186, 6, 70, "GuideText",ExpressionUUID->"646afa69-b423-4a81-a86f-20aff02cca47",
+ CellID->1388013129],
+Cell[4433, 135, 203, 6, 70, "GuideText",ExpressionUUID->"9d3ad62b-9793-48b2-b173-71456564829e",
+ CellID->1263733669],
+Cell[4639, 143, 197, 6, 70, "GuideText",ExpressionUUID->"4666f2e5-9180-4d15-a603-bf088655e1b0",
+ CellID->958506053],
+Cell[4839, 151, 23, 0, 70, "FooterCell",ExpressionUUID->"a4b8c7da-7816-4798-8179-abd11f3b7b30"]
+}
+]
+*)
+
+(* End of internal cache information *)

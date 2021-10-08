@@ -345,5 +345,35 @@
 		"DeleteStopWords" -> True,
 		"StoreTermVectors" -> False,
 		"BulkRetrievalOptimized" -> False
+	|>,
+	<|
+		"Name" -> "TableText",
+		"Type" -> "Text",
+		"Tokenized" -> True,
+		"Stored" -> False,
+		"Weight" -> 1,
+		"Searchable" -> True,
+		"Language" -> "English",
+		"IgnoreCase" -> True,
+		"StemmingMethod" -> Automatic,
+		"CamelCaseMatching" -> True,
+		"DeleteStopWords" -> True,
+		"StoreTermVectors" -> False,
+		"BulkRetrievalOptimized" -> False
+	|>,
+	<|
+		"Name" -> "Abstract",
+		"Type" -> "Text",
+		"Weight" -> 1.5,
+		"Tokenized" -> True,
+		"Stored" -> False,
+		"Searchable" -> True,
+		"Language" -> "English",
+		"IgnoreCase" -> True,
+		"StemmingMethod" -> Automatic,
+		"CamelCaseMatching" -> True,
+		"DeleteStopWords" -> True,
+		"StoreTermVectors" -> False,
+		"BulkRetrievalOptimized" -> False
 	|>
 }
