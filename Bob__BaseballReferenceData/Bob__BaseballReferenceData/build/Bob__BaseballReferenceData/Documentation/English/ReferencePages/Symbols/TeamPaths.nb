@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     91255,       1837]
-NotebookOptionsPosition[     87290,       1754]
-NotebookOutlinePosition[     89438,       1808]
-CellTagsIndexPosition[     89352,       1803]
+NotebookDataLength[     91376,       1842]
+NotebookOptionsPosition[     87377,       1757]
+NotebookOutlinePosition[     89525,       1811]
+CellTagsIndexPosition[     89439,       1806]
 WindowTitle->TeamPaths
 WindowFrame->Normal*)
 
@@ -78,7 +78,7 @@ BaseballReferenceData/ref/TeamPaths.html"], StandardForm]], "Input",
         Null], "\<\"Go to web URL\"\>":>FrontEndExecute[{
          NotebookLocate[{
            URL[(If[
-               TrueQ[DocumentationBuild`Make`Private`wsmlinkQ$137485], 
+               TrueQ[DocumentationBuild`Make`Private`wsmlinkQ$309169], 
                "http://reference.wolfram.com/system-modeler/", 
                "http://reference.wolfram.com/language/"] <> 
              "Bob__BaseballReferenceData/ref/TeamPaths") <> ".html"], 
@@ -97,6 +97,8 @@ BaseballReferenceData/ref/TeamPaths.html"], StandardForm]], "Input",
  CellID->1],
 
 Cell["Bob`BaseballReferenceData`", "ContextNameCell"],
+
+Cell[CellGroupData[{
 
 Cell[BoxData[GridBox[{
    {Cell[TextData[{
@@ -149,7 +151,8 @@ pages on for ",
   }]], "Usage",
  GridBoxOptions->{
  GridBoxBackground->{"Columns" -> {{None}}, "Rows" -> {{None}}}},
- CellID->743441113],
+ CellID->743441113]
+}, Open  ]],
 
 Cell[CellGroupData[{
 
@@ -188,7 +191,7 @@ Cell[TextData[{
  WholeCellGroupOpener->True,
  CacheGraphics->False,
  CellTags->"PrimaryExamplesSection",
- CellID->297593814],
+ CellID->957388117],
 
 Cell[CellGroupData[{
 
@@ -226,7 +229,7 @@ Cell[TextData[{
 }], "ExampleSection", "ExampleSection",
  WholeCellGroupOpener->True,
  CacheGraphics->False,
- CellID->169818035],
+ CellID->1874599095],
 
 Cell[TextData[{
  "Get the ",
@@ -1669,13 +1672,13 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
         Hold[
           TypeSystem`NestedGrid`PackagePrivate`localHold[
           TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]], StandardForm],
-      ImageSizeCache->{0., {0., 0.}},
+      ImageSizeCache->{674., {300.3544921875, 305.6455078125}},
       TrackedSymbols:>{
        TypeSystem`NestedGrid`PackagePrivate`$state$$, 
         TypeSystem`NestedGrid`PackagePrivate`$grid$$}], 
      TypeSystem`NestedGrid`PackagePrivate`mouseAnnotation$$ = 
      MouseAnnotation[],
-     ImageSizeCache->{0., {0., 0.}}],
+     ImageSizeCache->{674., {300.3544921875, 305.6455078125}}],
     BaseStyle->{LineBreakWithin -> False},
     DynamicModuleValues:>{},
     Initialization:>(TypeSystem`NestedGrid`PackagePrivate`$outputID$$ = 
@@ -1765,7 +1768,7 @@ TaggingRules->{
     "ExampleSection" -> {"0" -> Open, "1" -> Closed}}, "NewStyles" -> True, 
   "CitationPopupData" -> $Failed, "ShowCitation" -> False, "RootCaptions" -> 
   "", "Metadata" -> {
-   "built" -> "{2021, 10, 8, 8, 26, 35.196585}", 
+   "built" -> "{2021, 11, 19, 13, 46, 42.910626}", 
     "history" -> {"??", "", "", ""}, "context" -> 
     "Bob`BaseballReferenceData`", "keywords" -> {}, "specialkeywords" -> {}, 
     "tutorialcollectionlinks" -> {}, "index" -> True, "label" -> 
@@ -1777,7 +1780,7 @@ for baseball-reference.", "synonyms" -> {}, "tabletags" -> {}, "title" ->
     "Symbol", "uri" -> "Bob__BaseballReferenceData/ref/TeamPaths", 
     "WorkflowDockedCell" -> ""}, "SearchTextTranslated" -> ""},
 CellContext->"Global`",
-FrontEndVersion->"13.0 for Mac OS X x86 (64-bit) (September 24, 2021)",
+FrontEndVersion->"13.0 for Mac OS X x86 (64-bit) (November 12, 2021)",
 StyleDefinitions->Notebook[{
    Cell[
     StyleData[
@@ -1786,7 +1789,7 @@ StyleDefinitions->Notebook[{
     StyleData["Input"], CellContext -> "Global`"], 
    Cell[
     StyleData["Output"], CellContext -> "Global`"]}, Visible -> False, 
-  FrontEndVersion -> "13.0 for Mac OS X x86 (64-bit) (September 24, 2021)", 
+  FrontEndVersion -> "13.0 for Mac OS X x86 (64-bit) (November 12, 2021)", 
   StyleDefinitions -> "Default.nb"]
 ]
 (* End of Notebook Content *)
@@ -1795,50 +1798,52 @@ StyleDefinitions->Notebook[{
 (*CellTagsOutline
 CellTagsIndex->{
  "PrimaryExamplesSection"->{
-  Cell[5182, 155, 1163, 35, 70, "PrimaryExamplesSection",ExpressionUUID->"f513e398-e304-416b-b0c8-94af66000b11",
+  Cell[5216, 158, 1163, 35, 70, "PrimaryExamplesSection",ExpressionUUID->"c64d5f8c-ed60-4c29-a0e4-2df8d212f0bd",
    CellTags->"PrimaryExamplesSection",
-   CellID->297593814]}
+   CellID->957388117]}
  }
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"PrimaryExamplesSection", 89153, 1796}
+ {"PrimaryExamplesSection", 89240, 1799}
  }
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[581, 21, 3011, 75, 70, "AnchorBarGrid",ExpressionUUID->"066a56d9-b20c-4755-833c-8091971ef0ac",
+Cell[581, 21, 3011, 75, 70, "AnchorBarGrid",ExpressionUUID->"38405c8d-3f69-41a5-9dc6-3ba3c4fc2b6b",
  CellID->1],
-Cell[3595, 98, 53, 0, 70, "ContextNameCell",ExpressionUUID->"70760d61-4b21-43d1-9c5c-916fa2ede70f"],
-Cell[3651, 100, 919, 30, 70, "ObjectNameGrid",ExpressionUUID->"0a091371-7761-402a-ad71-5ea1d2110580"],
-Cell[4573, 132, 584, 19, 70, "Usage",ExpressionUUID->"071b3ce4-5fdb-463b-a32a-ae73710dd491",
- CellID->743441113],
+Cell[3595, 98, 53, 0, 70, "ContextNameCell",ExpressionUUID->"3dca52dd-e742-4a45-8aac-1773466cef7e"],
 Cell[CellGroupData[{
-Cell[5182, 155, 1163, 35, 70, "PrimaryExamplesSection",ExpressionUUID->"f513e398-e304-416b-b0c8-94af66000b11",
+Cell[3673, 102, 919, 30, 70, "ObjectNameGrid",ExpressionUUID->"0accaf32-45a8-414d-b93f-f33a334cbcee"],
+Cell[4595, 134, 584, 19, 70, "Usage",ExpressionUUID->"2d36fa95-b1c9-4f50-8520-3bb5befc00c9",
+ CellID->743441113]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5216, 158, 1163, 35, 70, "PrimaryExamplesSection",ExpressionUUID->"c64d5f8c-ed60-4c29-a0e4-2df8d212f0bd",
  CellTags->"PrimaryExamplesSection",
- CellID->297593814],
+ CellID->957388117],
 Cell[CellGroupData[{
-Cell[6370, 194, 1141, 34, 70, "ExampleSection",ExpressionUUID->"e8408cd4-aee8-4e52-aa30-3a9ebb792e31",
- CellID->169818035],
-Cell[7514, 230, 288, 10, 70, "ExampleText",ExpressionUUID->"51a09eae-20f9-4f72-8404-b6f5b5fae7a8",
+Cell[6404, 197, 1142, 34, 70, "ExampleSection",ExpressionUUID->"5aba4988-5f9c-4ba3-a81c-9ea64cdf9737",
+ CellID->1874599095],
+Cell[7549, 233, 288, 10, 70, "ExampleText",ExpressionUUID->"9916c972-4263-4228-afa8-41a86ef6ca58",
  CellID->866836772],
 Cell[CellGroupData[{
-Cell[7827, 244, 126, 3, 70, "Input",ExpressionUUID->"4f5a9010-cb01-49fc-96bb-ccc2a92534a8",
+Cell[7862, 247, 126, 3, 70, "Input",ExpressionUUID->"38c44ae6-5fba-4cdc-9a0d-ed14e232e78f",
  CellID->724935827],
-Cell[7956, 249, 77420, 1441, 70, "Output",ExpressionUUID->"3a8343ca-6e7c-40d5-aaad-a1936af546ed",
+Cell[7991, 252, 77472, 1441, 70, "Output",ExpressionUUID->"5657b444-8b0c-43a2-a485-14346dc9ae7e",
  CellID->363566241]
 }, Open  ]]
 }, Dynamic[CurrentValue[EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "0"}, Closed]]]],
 Cell[CellGroupData[{
-Cell[85525, 1698, 1167, 34, 70, "ExampleSection",ExpressionUUID->"59b1c624-b7e5-40e1-9932-60110fec6cc1",
+Cell[85612, 1701, 1167, 34, 70, "ExampleSection",ExpressionUUID->"0a24ac89-3109-4de2-8d53-fc5d01a3f355",
  CellID->707155530],
-Cell[86695, 1734, 103, 2, 70, "ExampleText",ExpressionUUID->"01af3c6d-0804-479c-a93a-dc4b6ff50f1d",
+Cell[86782, 1737, 103, 2, 70, "ExampleText",ExpressionUUID->"159948a6-fe24-4571-810c-2f7337e8ce8b",
  CellID->1368716379],
-Cell[86801, 1738, 232, 6, 70, "Input",ExpressionUUID->"f18f12e9-d513-465c-91cc-9684db9b6411",
+Cell[86888, 1741, 232, 6, 70, "Input",ExpressionUUID->"7846b543-8c44-4133-a6af-b3e5a61a0a73",
  CellID->410230341]
 }, Dynamic[CurrentValue[EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "1"}, Closed]]]]
 }, Dynamic[CurrentValue[EvaluationNotebook[], {TaggingRules, "Openers", "PrimaryExamplesSection"}, Closed]]]],
-Cell[87263, 1752, 23, 0, 70, "FooterCell",ExpressionUUID->"7cb9fb1f-5678-4b1c-acbb-7090d901f188"]
+Cell[87350, 1755, 23, 0, 70, "FooterCell",ExpressionUUID->"86461f27-4c39-474c-8051-eb6e73303dd3"]
 }
 ]
 *)
