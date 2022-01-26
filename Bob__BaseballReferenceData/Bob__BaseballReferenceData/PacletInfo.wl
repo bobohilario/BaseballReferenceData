@@ -5,7 +5,7 @@ PacletObject[
     "Name" -> "Bob__BaseballReferenceData",
     "Description" -> "Import data from baseball-reference.com",
     "Creator" -> "Bob Sandheinrich",
-    "Version" -> "1.1.9",
+    "Version" -> "1.5.0",
     "WolframVersion" -> "12.2+",
     "Extensions" -> {
       {
@@ -47,7 +47,6 @@ PacletObject[
       },
       {"Documentation", "Root" -> "Documentation"}
     },
-    "Loading" -> Automatic,
     "PublisherID" -> "Bob"
   |>
 ]

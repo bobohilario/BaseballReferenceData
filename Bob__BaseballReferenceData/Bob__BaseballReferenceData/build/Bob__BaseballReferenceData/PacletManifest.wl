@@ -5,7 +5,9 @@
         <|
             "File"
             ->
-            File["Kernel/BaseballReferenceData.m"]
+            File[
+                "Kernel/BaseballReferenceData.m"
+            ]
             ,
             "Hash"
             ->
@@ -16,7 +18,9 @@
         <|
             "File"
             ->
-            File["Kernel/Endpoints.m"]
+            File[
+                "Kernel/Endpoints.m"
+            ]
             ,
             "Hash"
             ->
@@ -27,7 +31,9 @@
         <|
             "File"
             ->
-            File["Kernel/Schedule.m"]
+            File[
+                "Kernel/Schedule.m"
+            ]
             ,
             "Hash"
             ->
@@ -38,7 +44,9 @@
         <|
             "File"
             ->
-            File["Kernel/Teams.m"]
+            File[
+                "Kernel/Teams.m"
+            ]
             ,
             "Hash"
             ->
@@ -49,7 +57,9 @@
         <|
             "File"
             ->
-            File["Kernel/TopLevel.m"]
+            File[
+                "Kernel/TopLevel.m"
+            ]
             ,
             "Hash"
             ->
@@ -60,7 +70,9 @@
         <|
             "File"
             ->
-            File["Kernel/XMLRules.m"]
+            File[
+                "Kernel/XMLRules.m"
+            ]
             ,
             "Hash"
             ->
@@ -71,60 +83,70 @@
         <|
             "File"
             ->
-            File["Documentation/English/Guides/BaseballReferenceData.nb"
-                ]
+            File[
+                "Documentation/English/Guides/BaseballReferenceData.nb"
+                    
+            ]
             ,
             "Hash"
             ->
-            "2ebf51a28baf994f133ce688564b1921ee9a2611a4dc40602376fe054d814c72"
+            "829abac49c1bd4e4ee05e91cd9bb5f54b5f1f4816e96305edf6dbb0ad8de374a"
                 
         |>
         ,
         <|
             "File"
             ->
-            File["Documentation/English/ReferencePages/Symbols/PlayerHomers.nb"
-                ]
+            File[
+                "Documentation/English/ReferencePages/Symbols/PlayerHomers.nb"
+                    
+            ]
             ,
             "Hash"
             ->
-            "ea9b778aeb04e8f38373cc749ba5310d51d14ee1420fd634e36b380043c15573"
+            "065c1621bab4b9298addd35b2188f6710c326e2a7776b7638c83b26ebcdcb850"
                 
         |>
         ,
         <|
             "File"
             ->
-            File["Documentation/English/ReferencePages/Symbols/PlayerSearch.nb"
-                ]
+            File[
+                "Documentation/English/ReferencePages/Symbols/PlayerSearch.nb"
+                    
+            ]
             ,
             "Hash"
             ->
-            "9dcbc8f3ddc015f25f10663cf5a4c0f077ba4a47468161d4180ecc62e02eae42"
+            "da60bc1d5d2eb47f87366992494167fb8fcfb4c653d60bd2639c26971cca86cb"
                 
         |>
         ,
         <|
             "File"
             ->
-            File["Documentation/English/ReferencePages/Symbols/TeamPaths.nb"
-                ]
+            File[
+                "Documentation/English/ReferencePages/Symbols/TeamPaths.nb"
+                    
+            ]
             ,
             "Hash"
             ->
-            "f842fd97f571755c9be1678cb6a833c258ec1c581177d78153829ce2e19b105a"
+            "8a447bebe7c1f1a3dc6938a957c8aaff2c3ab32c468435c9b9aa57982f9b3a76"
                 
         |>
         ,
         <|
             "File"
             ->
-            File["Documentation/English/ReferencePages/Symbols/TeamYearSchedule.nb"
-                ]
+            File[
+                "Documentation/English/ReferencePages/Symbols/TeamYearSchedule.nb"
+                    
+            ]
             ,
             "Hash"
             ->
-            "4b11bbdd570692e15d13180eb487705004b7ce4d29ce7699a48ac039a2f9fb62"
+            "5d55031c95df2bf7e02da833b0b151a24c7bd25d0b32f1913543a3ca817b3f87"
                 
         |>
     }

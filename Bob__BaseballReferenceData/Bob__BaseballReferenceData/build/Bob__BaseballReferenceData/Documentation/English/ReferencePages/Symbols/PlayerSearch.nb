@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     91450,       1808]
-NotebookOptionsPosition[     87432,       1720]
-NotebookOutlinePosition[     89573,       1775]
-CellTagsIndexPosition[     89487,       1770]
+NotebookDataLength[     91562,       1813]
+NotebookOptionsPosition[     87513,       1723]
+NotebookOutlinePosition[     89653,       1778]
+CellTagsIndexPosition[     89567,       1773]
 WindowTitle->PlayerSearch
 WindowFrame->Normal*)
 
@@ -78,7 +78,7 @@ BaseballReferenceData/ref/PlayerSearch.html"], StandardForm]], "Input",
         Null], "\<\"Go to web URL\"\>":>FrontEndExecute[{
          NotebookLocate[{
            URL[(If[
-               TrueQ[DocumentationBuild`Make`Private`wsmlinkQ$136037], 
+               TrueQ[DocumentationBuild`Make`Private`wsmlinkQ$307702], 
                "http://reference.wolfram.com/system-modeler/", 
                "http://reference.wolfram.com/language/"] <> 
              "Bob__BaseballReferenceData/ref/PlayerSearch") <> ".html"], 
@@ -97,6 +97,8 @@ BaseballReferenceData/ref/PlayerSearch.html"], StandardForm]], "Input",
  CellID->1],
 
 Cell["Bob`BaseballReferenceData`", "ContextNameCell"],
+
+Cell[CellGroupData[{
 
 Cell[BoxData[GridBox[{
    {Cell[TextData[{
@@ -141,7 +143,8 @@ matching query."
   }]], "Usage",
  GridBoxOptions->{
  GridBoxBackground->{"Columns" -> {{None}}, "Rows" -> {{None}}}},
- CellID->982511436],
+ CellID->982511436]
+}, Open  ]],
 
 Cell[CellGroupData[{
 
@@ -180,7 +183,7 @@ Cell[TextData[{
  WholeCellGroupOpener->True,
  CacheGraphics->False,
  CellTags->"PrimaryExamplesSection",
- CellID->2086753343],
+ CellID->568178601],
 
 Cell[CellGroupData[{
 
@@ -218,7 +221,7 @@ Cell[TextData[{
 }], "ExampleSection", "ExampleSection",
  WholeCellGroupOpener->True,
  CacheGraphics->False,
- CellID->1507996644],
+ CellID->1665452445],
 
 Cell["Search for a player:", "ExampleText",
  CellID->297236941],
@@ -1687,13 +1690,13 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
         Hold[
           TypeSystem`NestedGrid`PackagePrivate`localHold[
           TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]], StandardForm],
-      ImageSizeCache->{0., {0., 0.}},
+      ImageSizeCache->{856., {46.8544921875, 52.1455078125}},
       TrackedSymbols:>{
        TypeSystem`NestedGrid`PackagePrivate`$state$$, 
         TypeSystem`NestedGrid`PackagePrivate`$grid$$}], 
      TypeSystem`NestedGrid`PackagePrivate`mouseAnnotation$$ = 
      MouseAnnotation[],
-     ImageSizeCache->{0., {0., 0.}}],
+     ImageSizeCache->{856., {46.8544921875, 52.1455078125}}],
     BaseStyle->{LineBreakWithin -> False},
     DynamicModuleValues:>{},
     Initialization:>(TypeSystem`NestedGrid`PackagePrivate`$outputID$$ = 
@@ -1731,7 +1734,7 @@ TaggingRules->{
   "NewStyles" -> True, "CitationPopupData" -> $Failed, "ShowCitation" -> 
   False, "RootCaptions" -> "", 
   "Metadata" -> {
-   "built" -> "{2021, 10, 8, 8, 26, 33.341644}", 
+   "built" -> "{2021, 11, 19, 13, 46, 40.101760}", 
     "history" -> {"??", "", "", ""}, "context" -> 
     "Bob`BaseballReferenceData`", "keywords" -> {}, "specialkeywords" -> {}, 
     "tutorialcollectionlinks" -> {}, "index" -> True, "label" -> 
@@ -1744,7 +1747,7 @@ matching query.", "synonyms" -> {}, "tabletags" -> {}, "title" ->
     "Bob__BaseballReferenceData/ref/PlayerSearch", "WorkflowDockedCell" -> 
     ""}, "SearchTextTranslated" -> ""},
 CellContext->"Global`",
-FrontEndVersion->"13.0 for Mac OS X x86 (64-bit) (September 24, 2021)",
+FrontEndVersion->"13.0 for Mac OS X x86 (64-bit) (November 12, 2021)",
 StyleDefinitions->Notebook[{
    Cell[
     StyleData[
@@ -1753,7 +1756,7 @@ StyleDefinitions->Notebook[{
     StyleData["Input"], CellContext -> "Global`"], 
    Cell[
     StyleData["Output"], CellContext -> "Global`"]}, Visible -> False, 
-  FrontEndVersion -> "13.0 for Mac OS X x86 (64-bit) (September 24, 2021)", 
+  FrontEndVersion -> "13.0 for Mac OS X x86 (64-bit) (November 12, 2021)", 
   StyleDefinitions -> "Default.nb"]
 ]
 (* End of Notebook Content *)
@@ -1762,54 +1765,56 @@ StyleDefinitions->Notebook[{
 (*CellTagsOutline
 CellTagsIndex->{
  "PrimaryExamplesSection"->{
-  Cell[5011, 147, 1164, 35, 70, "PrimaryExamplesSection",ExpressionUUID->"84fd5850-4bb0-4b3e-b6ad-dd61d3a3733e",
+  Cell[5045, 150, 1163, 35, 70, "PrimaryExamplesSection",ExpressionUUID->"973a3182-da4e-427e-a161-f297f8dd3177",
    CellTags->"PrimaryExamplesSection",
-   CellID->2086753343]}
+   CellID->568178601]}
  }
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"PrimaryExamplesSection", 89287, 1763}
+ {"PrimaryExamplesSection", 89368, 1766}
  }
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[584, 21, 3023, 75, 70, "AnchorBarGrid",ExpressionUUID->"05876339-4be5-483c-9437-e6eeab0cab2d",
+Cell[584, 21, 3023, 75, 70, "AnchorBarGrid",ExpressionUUID->"d5fd0638-8d39-401d-9336-9f9c8cfa0972",
  CellID->1],
-Cell[3610, 98, 53, 0, 70, "ContextNameCell",ExpressionUUID->"d730fbc6-028b-4dc9-8021-389ac6c0a6ae"],
-Cell[3666, 100, 922, 30, 70, "ObjectNameGrid",ExpressionUUID->"8c38d69a-5d2d-4612-87f9-0afbfe16da77"],
-Cell[4591, 132, 395, 11, 70, "Usage",ExpressionUUID->"b93beba4-c399-46b0-9f61-997a0c4f668d",
- CellID->982511436],
+Cell[3610, 98, 53, 0, 70, "ContextNameCell",ExpressionUUID->"0a458647-4953-4fce-b820-a1acc18a6f3a"],
 Cell[CellGroupData[{
-Cell[5011, 147, 1164, 35, 70, "PrimaryExamplesSection",ExpressionUUID->"84fd5850-4bb0-4b3e-b6ad-dd61d3a3733e",
+Cell[3688, 102, 922, 30, 70, "ObjectNameGrid",ExpressionUUID->"6952ec08-8646-4079-98e2-f5bc434c3604"],
+Cell[4613, 134, 395, 11, 70, "Usage",ExpressionUUID->"01569e9d-a28b-4eb5-b814-085b5edab451",
+ CellID->982511436]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5045, 150, 1163, 35, 70, "PrimaryExamplesSection",ExpressionUUID->"973a3182-da4e-427e-a161-f297f8dd3177",
  CellTags->"PrimaryExamplesSection",
- CellID->2086753343],
+ CellID->568178601],
 Cell[CellGroupData[{
-Cell[6200, 186, 1142, 34, 70, "ExampleSection",ExpressionUUID->"4d41e5d5-322c-4349-b408-9bc4b55d65c9",
- CellID->1507996644],
-Cell[7345, 222, 63, 1, 70, "ExampleText",ExpressionUUID->"f787ddd8-2689-48da-b6e8-2700f1773d8a",
+Cell[6233, 189, 1142, 34, 70, "ExampleSection",ExpressionUUID->"6b448a49-5439-49d0-a203-988137425f54",
+ CellID->1665452445],
+Cell[7378, 225, 63, 1, 70, "ExampleText",ExpressionUUID->"a6dea187-b0e0-4c60-9b9f-feb759b5cecb",
  CellID->297236941],
 Cell[CellGroupData[{
-Cell[7433, 227, 163, 4, 70, "Input",ExpressionUUID->"19d8bafc-992e-4e26-a5c7-2073557b6de5",
+Cell[7466, 230, 163, 4, 70, "Input",ExpressionUUID->"d9623ef5-e04e-47eb-aa26-7389320a7381",
  CellID->1454951095],
-Cell[7599, 233, 43994, 816, 70, "Output",ExpressionUUID->"b5fdeee6-05cd-4fd3-b1dc-5d30771e1b04",
+Cell[7632, 236, 43994, 816, 70, "Output",ExpressionUUID->"87fa8b60-fe8a-4a8e-b316-0ea3c1790572",
  CellID->1077055982]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[51630, 1054, 126, 3, 70, "ExampleDelimiter",ExpressionUUID->"183d41b0-ab55-4be6-8db8-dec1ffc56e22",
+Cell[51663, 1057, 126, 3, 70, "ExampleDelimiter",ExpressionUUID->"cdae3ca8-1b4d-49fe-b124-3f0bab1a95b0",
  CellID->1020238210],
-Cell[51759, 1059, 63, 1, 70, "ExampleText",ExpressionUUID->"3e80b83f-b67b-4674-89c5-5e4926c78f05",
+Cell[51792, 1062, 63, 1, 70, "ExampleText",ExpressionUUID->"cd18bcd2-5de4-4031-add3-9ecd26971cab",
  CellID->1242632551],
 Cell[CellGroupData[{
-Cell[51847, 1064, 168, 4, 70, "Input",ExpressionUUID->"16e45da2-9e48-4aa0-b013-c3c43431a6f0",
+Cell[51880, 1067, 168, 4, 70, "Input",ExpressionUUID->"7540c155-781a-4679-802e-48eb422879a8",
  CellID->646817582],
-Cell[52018, 1070, 35133, 638, 70, "Output",ExpressionUUID->"5e00a5a5-74bd-46ab-8e18-b73f22d06af1",
+Cell[52051, 1073, 35181, 638, 70, "Output",ExpressionUUID->"6e9d9a4f-2f1f-486d-9fdb-0196635fc328",
  CellID->1093640959]
 }, Open  ]]
 }, Open  ]]
 }, Dynamic[CurrentValue[EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "0"}, Closed]]]]
 }, Dynamic[CurrentValue[EvaluationNotebook[], {TaggingRules, "Openers", "PrimaryExamplesSection"}, Closed]]]],
-Cell[87405, 1718, 23, 0, 70, "FooterCell",ExpressionUUID->"0712791e-4059-4f09-980b-35ff05eeb2d7"]
+Cell[87486, 1721, 23, 0, 70, "FooterCell",ExpressionUUID->"40942d46-db64-4494-9651-ce9f358f9842"]
 }
 ]
 *)
