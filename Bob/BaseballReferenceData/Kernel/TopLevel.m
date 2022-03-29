@@ -5,6 +5,7 @@ Bob`BaseballReferenceData`PlayerHomers
 Bob`BaseballReferenceData`PlayerSearch
 Bob`BaseballReferenceData`TeamPaths
 Bob`BaseballReferenceData`TeamYearSchedule
+Bob`BaseballReferenceData`PlayerStandardBatting
 
 Begin["`Private`"]
 
@@ -19,6 +20,8 @@ teamYearSchedule[
     brdata["TeamYearSchedule",<|"team"->t,"year"->ToString[year]|>],
     t,year,rest]
 ]
+
+PlayerStandardBatting[id_]:=brdata["PlayerStandardBatting",id]
 
 brdata[type_,params_]:=With[{raw=ImportBRXML[type,params]},
    Dataset@KeyUnion[GeneralUtilities`ToAssociations[ScrapeXML[type,raw]], Missing["NotAvailable"] &]

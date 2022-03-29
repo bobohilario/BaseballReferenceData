@@ -6,17 +6,11 @@ PacletObject[
     "Description" -> "Import data from baseball-reference.com",
     "Creator" -> "Bob Sandheinrich",
     "PublisherID" -> "Bob",
-    "Version" -> "1.7.1",
+    "Version" -> "1.9.13",
     "WolframVersion" -> "12.2+",
     "Extensions" -> {
       {
         "Kernel",
-        "Symbols" -> {
-          "Bob`BaseballReferenceData`PlayerHomers",
-          "Bob`BaseballReferenceData`PlayerSearch",
-          "Bob`BaseballReferenceData`TeamPaths",
-          "Bob`BaseballReferenceData`TeamYearSchedule"
-        },
         "Root" -> "Kernel",
         "HiddenImport" -> True,
         "Context" -> {
@@ -44,6 +38,13 @@ PacletObject[
             "Bob`BaseballReferenceData`Schedule`",
             "Schedule.m"
           }
+        },
+        "Symbols" -> {
+          "Bob`BaseballReferenceData`PlayerHomers",
+          "Bob`BaseballReferenceData`PlayerSearch",
+          "Bob`BaseballReferenceData`PlayerStandardBatting",
+          "Bob`BaseballReferenceData`TeamPaths",
+          "Bob`BaseballReferenceData`TeamYearSchedule"
         }
       },
       {"Documentation", "Root" -> "Documentation"}

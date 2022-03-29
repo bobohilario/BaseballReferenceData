@@ -9,6 +9,16 @@ ScrapeXML[type_,xml_]:=With[{rows=xmlRows[type,xml]},
     parseRows[type,rows]
 ]
 
+xmlRows["PlayerStandardBatting",xml_]:=(
+    Cases[xml,
+        XMLElement[
+        "tr", {"class" -> "full", 
+            "id" -> _String?(StringStartsQ["batting_standard."])}, row_] :> 
+        row, {5, 15}
+    ]
+
+)
+
 xmlRows["PlayerHomers",xml_]:=Cases[xml,
    {XMLElement[
        "th", {___, "data-stat" -> "ranker", ___}, {tot_}],
@@ -39,7 +49,7 @@ xmlRows["TeamYearSchedule", xml_] :=
         }], Infinity]
 
 parseRows[type_,rows_]:=With[{rules=XMLRules[type]},
-    DeleteMissing[parserow[type,rules,#]&/@rows]
+    DeleteMissing[ResourceFunction["KeySortLike"][Association@parserow[type,rules,#],keyOrder[type]]&/@rows]
 ]
 
 parserow["TeamList",_,row_]:=row
@@ -54,10 +64,12 @@ parserow[_,rules_,row_] := With[{data = Last @ Reap[Replace[row, rules, {1, Infi
     }
 ]
 
+keyOrder[_]:={}
+
 XMLRules[All] = Join[
     XMLRules["PlayerHomers"]
 ]
-XMLRules["TeamList"]={};
+XMLRules[_]={};
 
 XMLRules["PlayerHomers"] = {XMLElement["th", {___, "data-stat" -> "ranker", ___}, {tot_}] :> Sow["Total" -> tot],
     XMLElement["td", {___, "data-stat" -> "career_num", ___}, {car_}]
@@ -105,6 +117,44 @@ XMLRules["PlayerHomers"] = {XMLElement["th", {___, "data-stat" -> "ranker", ___}
     XMLElement["td", {___, "data-stat" -> "play_desc", ___}, {desc_}]
          :> Sow["Description" -> desc]
 }
+
+toKey["year_ID"]:="Year"
+toKey["team_ID"]:="Team"
+toKey["batting_avg"]="BA"
+toKey["onbase_perc"]="OBP"
+toKey["slugging_perc"]="SLG"
+toKey["onbase_plus_slugging"]="OPS"
+toKey["onbase_plus_slugging_plus"]="OPS+"
+
+toKey[k_String]:=Capitalize[k]
+toKey[expr_]:=expr
+
+toRawValue[str_String]:=str
+toRawValue[XMLElement[_, {}, {val_}]]:=toRawValue[val]
+toRawValue[expr_]:=expr
+
+XMLRules["PlayerStandardBatting"] = {
+    XMLElement["td", {___, "data-stat" -> ("team_ID"), ___}, {XMLElement["a", KeyValuePattern[{
+  "href"->path_}]
+  , team_],___}] :>
+         (Sow["Team" -> team];
+         Sow["TeamURL" -> URL@URLDecode@URLBuild[{$BaseURL,path}]];
+         ),
+    XMLElement["td", {___, "data-stat" -> strkey:("pos_season"), ___}, {val_,___}] :>
+         Sow[toKey[strkey] -> toRawValue@val],
+    XMLElement["th", {___, "data-stat" ->(intkey:("year_ID")), ___}, {val_,___}] :>
+         Sow[toKey[intkey] -> Interpreter["Integer",IntegerQ,Missing["NotAvailable"]][toRawValue@val]],
+    XMLElement["td", {___, "data-stat" ->(intkey:("G"|"PA"|"year_ID"|"age"|"AB"|"R"|"H"|"2B"|"3B"|
+        "HR"|"RBI"|"SB"|"CS"|"BB"|"SO"|"TB"|"GIDP"|"HBP"|"SH"|"SF"|"IBB")), ___}, {val_,___}] :>
+         Sow[toKey[intkey] -> Interpreter["Integer",IntegerQ,Missing["NotAvailable"]][toRawValue@val]],
+    XMLElement["td", {___, "data-stat" ->(realkey:("batting_avg"|"onbase_perc"|"slugging_perc"|"onbase_plus_slugging"|"onbase_plus_slugging_plus")), ___}, {val_,___}] :>
+         Sow[toKey[realkey] -> Interpreter["Real",NumberQ,Missing["NotAvailable"]][toRawValue@val]]
+
+}
+
+keyOrder["PlayerStandardBatting"]={"Year","Team","Age",  "G", "PA", "AB", "R", "H", "2B", "3B", \
+"HR", "RBI", "SB", "CS", "BB", "SO", "BA", "OBP", "SLG", \
+"OPS", "OPS+", "TB", "GIDP", "HBP", "SH", "SF", "IBB", "Pos_season","TeamURL"};
 
 XMLRules["PlayerSearch"] = {
     XMLElement["div", {"class" -> "search-item-url"}, {url_}] :> Sow[{"Path"->url,
