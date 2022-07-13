@@ -6,8 +6,9 @@ PacletObject[
     "Description" -> "Import data from baseball-reference.com",
     "Creator" -> "Bob Sandheinrich",
     "PublisherID" -> "Bob",
-    "Version" -> "1.9.13",
-    "WolframVersion" -> "12.2+",
+    "Version" -> "1.9.29",
+    "License" -> "MIT",
+    "WolframVersion" -> "12.3+",
     "Extensions" -> {
       {
         "Kernel",
