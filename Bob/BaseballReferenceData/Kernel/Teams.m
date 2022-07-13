@@ -44,6 +44,8 @@ toTeam[team:(Alternatives@@$CurrentTeams)]:=team
 
 toTeam[team_String]:=team/.teamRules
 
+(* dummy change *)
+
 End[]
 
 EndPackage[]

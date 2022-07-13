@@ -13,6 +13,7 @@ Endpoint[name_,params___]:=URLBuild[{$BaseURL,endpointPath[name,params]}]
 
 endpointPath["PlayerStandardBatting",id_String]:=URLBuild[{"players",StringTake[id,1],id<>".shtml"}]<>"#batting_standard"
 endpointPath["PlayerHomers",___]="players/event_hr.fcgi"
+endpointPath["BatterCareer",id_String]:=URLBuild[{"players",StringTake[id,1],id}]
 endpointPath["TeamList",___]="teams"
 endpointPath["PlayerSearch",___]="search/search.fcgi"
 endpointPath["TeamYearSchedule",___]="teams/`team`/`year`-schedule-scores.shtml"

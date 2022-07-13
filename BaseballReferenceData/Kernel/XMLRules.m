@@ -9,6 +9,8 @@ ScrapeXML[type_,xml_]:=With[{rows=xmlRows[type,xml]},
     parseRows[type,rows]
 ]
 
+xmlRows["BatterCareer",xml_]:=(Global`$xml=xml)
+
 xmlRows["PlayerHomers",xml_]:=Cases[xml,
    {XMLElement[
        "th", {___, "data-stat" -> "ranker", ___}, {tot_}],

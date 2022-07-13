@@ -9,6 +9,8 @@ ScrapeXML[type_,xml_]:=With[{rows=xmlRows[type,xml]},
     parseRows[type,rows]
 ]
 
+xmlRows["BatterCareer",xml_]:=xml
+
 xmlRows["PlayerStandardBatting",xml_]:=(
     Cases[xml,
         XMLElement[
